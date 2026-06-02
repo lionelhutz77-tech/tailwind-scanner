@@ -1,0 +1,32 @@
+{
+  "AI Memory / HBM": {
+    "trigger_tickers": ["NVDA", "AMD", "MSFT", "GOOG"],
+    "beneficiary_tickers": ["MU", "WDC", "AMAT", "LRCX", "ONTO"],
+    "search_keywords": ["HBM memory", "AI memory", "DRAM AI", "high bandwidth memory"],
+    "rss_keywords": ["HBM", "memory chip", "DRAM", "Micron", "Sandisk", "high bandwidth"]
+  },
+  "AI Power / Energy": {
+    "trigger_tickers": ["NVDA", "MSFT", "AMZN", "GOOG"],
+    "beneficiary_tickers": ["VST", "CEG", "NRG", "ETN", "EMR", "GEV"],
+    "search_keywords": ["AI power consumption", "data center energy", "AI electricity"],
+    "rss_keywords": ["data center power", "AI energy", "nuclear data center", "power grid AI"]
+  },
+  "AI Cooling / Infrastructure": {
+    "trigger_tickers": ["NVDA", "MSFT", "AMZN"],
+    "beneficiary_tickers": ["VRT", "GNRC", "JCI", "TT"],
+    "search_keywords": ["data center cooling", "liquid cooling AI", "AI infrastructure"],
+    "rss_keywords": ["liquid cooling", "data center cooling", "thermal management AI"]
+  },
+  "AI Networking": {
+    "trigger_tickers": ["NVDA", "MSFT", "AMZN", "META"],
+    "beneficiary_tickers": ["ANET", "CSCO", "LITE", "CIEN", "COHR"],
+    "search_keywords": ["AI networking", "data center switch", "InfiniBand", "ethernet AI"],
+    "rss_keywords": ["AI networking", "data center switch", "InfiniBand", "Arista"]
+  },
+  "AI Hardware / Semiconductors": {
+    "trigger_tickers": ["NVDA", "AMD", "INTC"],
+    "beneficiary_tickers": ["AMAT", "LRCX", "KLAC", "ASML", "TSM", "ONTO"],
+    "search_keywords": ["semiconductor equipment", "chip manufacturing AI", "wafer demand"],
+    "rss_keywords": ["semiconductor equipment", "chip fab", "wafer", "ASML", "lithography"]
+  }
+}
