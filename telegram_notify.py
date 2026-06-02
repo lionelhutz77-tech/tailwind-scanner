@@ -8,15 +8,23 @@ Benoetigt zwei Umgebungsvariablen:
 """
 
 import os
-import json
 import requests
 from datetime import datetime
 from pathlib import Path
 
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
+# Chat-ID ist bereits aus dem Trump-Scanner bekannt
+CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "8666074618")
+
 
 def sende_telegram(ergebnisse: list[dict], trends_scores: dict, report_pfad: Path):
     token   = os.environ.get("TELEGRAM_BOT_TOKEN", "")
-    chat_id = os.environ.get("TELEGRAM_CHAT_ID", "")
+    chat_id = CHAT_ID
 
     if not token or not chat_id:
         print("[Telegram] Keine Credentials gesetzt — Benachrichtigung uebersprungen")
