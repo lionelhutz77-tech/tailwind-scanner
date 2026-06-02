@@ -32,7 +32,7 @@ jobs:
       - name: Scanner ausfuehren
         run: python scanner.py
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
 
       - name: Report committen
         run: |

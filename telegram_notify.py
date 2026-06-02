@@ -23,7 +23,7 @@ CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "8666074618")
 
 
 def sende_telegram(ergebnisse: list[dict], trends_scores: dict, report_pfad: Path):
-    token   = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+    token   = os.environ.get("TELEGRAM_TOKEN", "")
     chat_id = CHAT_ID
 
     if not token or not chat_id:
