@@ -13,7 +13,7 @@
   },
   "AI Cooling / Infrastructure": {
     "trigger_tickers": ["NVDA", "MSFT", "AMZN"],
-    "beneficiary_tickers": ["VRT", "GNRC", "JCI", "TT"],
+    "beneficiary_tickers": ["VRT", "GNRC", "JCI", "TT", "APD"],
     "search_keywords": ["data center cooling", "liquid cooling AI", "AI infrastructure"],
     "rss_keywords": ["liquid cooling", "data center cooling", "thermal management AI"]
   },
@@ -28,5 +28,59 @@
     "beneficiary_tickers": ["AMAT", "LRCX", "KLAC", "ASML", "TSM", "ONTO"],
     "search_keywords": ["semiconductor equipment", "chip manufacturing AI", "wafer demand"],
     "rss_keywords": ["semiconductor equipment", "chip fab", "wafer", "ASML", "lithography"]
+  },
+  "Robotik / Humanoid": {
+    "trigger_tickers": ["TSLA", "AMZN", "GOOGL"],
+    "beneficiary_tickers": ["ISRG", "ABB", "ROK", "PH", "FANUY", "NVDA"],
+    "search_keywords": ["humanoid robot", "industrial robot", "robot automation", "Figure AI"],
+    "rss_keywords": ["humanoid robot", "robot automation", "Optimus robot", "industrial automation", "cobots"]
+  },
+  "Defense Tech / Drohnen": {
+    "trigger_tickers": ["LMT", "RTX", "NOC"],
+    "beneficiary_tickers": ["AVAV", "KTOS", "LDOS", "CACI", "HII", "TDG"],
+    "search_keywords": ["defense drone", "military AI", "autonomous weapons", "drone warfare"],
+    "rss_keywords": ["defense contract", "drone technology", "military AI", "Pentagon", "autonomous systems", "KTOS", "AeroVironment"]
+  },
+  "Quantencomputing": {
+    "trigger_tickers": ["GOOGL", "IBM", "MSFT"],
+    "beneficiary_tickers": ["IONQ", "RGTI", "QBTS", "QUBT", "ARQQ"],
+    "search_keywords": ["quantum computing", "quantum chip", "qubit breakthrough"],
+    "rss_keywords": ["quantum computing", "quantum chip", "qubit", "quantum advantage", "IonQ", "Rigetti"]
+  },
+  "Nuklearenergie / SMR": {
+    "trigger_tickers": ["MSFT", "AMZN", "GOOG"],
+    "beneficiary_tickers": ["CCJ", "NNE", "SMR", "OKLO", "LEU", "UEC"],
+    "search_keywords": ["nuclear energy AI", "small modular reactor", "SMR nuclear", "uranium demand"],
+    "rss_keywords": ["nuclear energy", "small modular reactor", "SMR", "uranium", "Oklo", "NuScale", "Cameco"]
+  },
+  "Autonomes Fahren": {
+    "trigger_tickers": ["TSLA", "GOOGL", "UBER"],
+    "beneficiary_tickers": ["MOBILEYE", "MBLY", "LAZR", "OUST", "MSTR"],
+    "search_keywords": ["autonomous vehicle", "self-driving car", "robotaxi", "Waymo"],
+    "rss_keywords": ["autonomous vehicle", "self-driving", "robotaxi", "Waymo", "Tesla FSD", "lidar"]
+  },
+  "Biotech / GLP-1 / Obesity": {
+    "trigger_tickers": ["LLY", "NVO"],
+    "beneficiary_tickers": ["ZFOX", "RYTM", "VKTX", "AMGN", "PFE", "PRAX"],
+    "search_keywords": ["GLP-1 drug", "obesity drug", "weight loss medication", "semaglutide"],
+    "rss_keywords": ["GLP-1", "obesity drug", "weight loss", "semaglutide", "Ozempic", "Wegovy", "tirzepatide"]
+  },
+  "Grid / Batteriespeicher": {
+    "trigger_tickers": ["TSLA", "ENPH", "SEDG"],
+    "beneficiary_tickers": ["FLNC", "STEM", "BE", "PLUG", "BLDP", "FCEL"],
+    "search_keywords": ["battery storage grid", "energy storage", "grid scale battery"],
+    "rss_keywords": ["battery storage", "grid storage", "energy storage", "Fluence", "Bloom Energy", "fuel cell"]
+  },
+  "Raumfahrt / Space Tech": {
+    "trigger_tickers": ["SPCE", "RKT", "LMT"],
+    "beneficiary_tickers": ["RKLB", "ASTS", "LUNR", "PL", "MNTS", "SATL"],
+    "search_keywords": ["space technology", "satellite internet", "rocket launch", "SpaceX"],
+    "rss_keywords": ["space technology", "satellite", "rocket launch", "Rocket Lab", "AST SpaceMobile", "Starlink"]
+  },
+  "Cybersecurity / KI-Sicherheit": {
+    "trigger_tickers": ["MSFT", "GOOG", "AMZN"],
+    "beneficiary_tickers": ["CRWD", "PANW", "ZS", "S", "FTNT", "CYBR"],
+    "search_keywords": ["AI cybersecurity", "cyber attack AI", "zero trust security"],
+    "rss_keywords": ["cybersecurity", "cyber attack", "ransomware", "CrowdStrike", "Palo Alto", "zero trust"]
   }
 }

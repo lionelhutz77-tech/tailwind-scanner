@@ -19,6 +19,8 @@ import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+from telegram_notify import sende_telegram
+
 import yfinance as yf
 import feedparser
 import requests
@@ -372,6 +374,9 @@ def main():
     html = erstelle_html(alle_ergebnisse, trends_scores)
     report_pfad.write_text(html, encoding="utf-8")
     print(f"\n✓ Report gespeichert: {report_pfad}")
+
+    # Telegram-Benachrichtigung
+    sende_telegram(alle_ergebnisse, trends_scores, report_pfad)
 
     # Zusammenfassung in Terminal
     print("\n" + "=" * 60)
