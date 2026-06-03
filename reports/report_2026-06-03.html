@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Tailwind Scanner — 03.06.2026 19:12</title>
+<style>
+  body { font-family: -apple-system, sans-serif; background: #0f172a; color: #e2e8f0; margin: 0; padding: 20px; }
+  h1 { color: #38bdf8; } h2 { color: #94a3b8; border-bottom: 1px solid #334155; padding-bottom: 8px; }
+  table { width: 100%; border-collapse: collapse; margin-bottom: 30px; }
+  th { background: #1e293b; color: #94a3b8; padding: 10px; text-align: left; font-size: 0.85em; }
+  td { padding: 10px; border-bottom: 1px solid #1e293b; font-size: 0.9em; }
+  tr:hover td { background: #1e293b; }
+  .hinweis { background: #1e293b; padding: 15px; border-radius: 8px; border-left: 4px solid #38bdf8; margin: 20px 0; }
+</style>
+</head>
+<body>
+<h1>Tailwind Scanner Report</h1>
+<p style="color:#64748b">Erstellt: 03.06.2026 19:12 — Signale fuer unterbewertete Aktien mit Makro-Rueckenwind</p>
+
+<div class="hinweis">
+  <strong>Score-Erklaerung:</strong> News (0–30) + Analyst-Revisions (0–20) + Options Call/Put (0–20) + Google Trends (0–30) = max. 100<br>
+  <strong>STARK ≥ 55 | MODERAT ≥ 30 | SCHWACH &lt; 30</strong>
+</div>
+
+<h2>Ticker-Signale</h2>
+<table>
+  <tr>
+    <th>Ticker</th><th>Thema</th><th>Score</th><th>Signal</th>
+    <th>Kurs</th><th>ATH-Abstand</th>
+    <th>News|Rev|Opt|Trend</th>
+    <th>News-Treffer</th><th>Upgrades 30d</th><th>Call/Put</th>
+  </tr>
+  
+        <tr>
+          <td><strong>ANET</strong></td>
+          <td>AI Networking</td>
+          <td style="color:#22c55e;font-weight:bold;font-size:1.2em">70/100</td>
+          <td><span style="background:#22c55e;color:#fff;padding:2px 8px;border-radius:4px">STARK</span></td>
+          <td>$176.19</td>
+          <td style="color:#f59e0b">2.0% unter ATH</td>
+          <td>30 | 20 | 20 | 0</td>
+          <td>10 Artikel</td>
+          <td>– Upgrades</td>
+          <td>5.03</td>
+        </tr>
+        <tr>
+          <td><strong>AVAV</strong></td>
+          <td>Defense Tech / Drohnen</td>
+          <td style="color:#22c55e;font-weight:bold;font-size:1.2em">70/100</td>
+          <td><span style="background:#22c55e;color:#fff;padding:2px 8px;border-radius:4px">STARK</span></td>
+          <td>$189.85</td>
+          <td style="color:#f59e0b">54.6% unter ATH</td>
+          <td>30 | 20 | 20 | 0</td>
+          <td>12 Artikel</td>
+          <td>– Upgrades</td>
+          <td>5.66</td>
+        </tr>
+        <tr>
+          <td><strong>QBTS</strong></td>
+          <td>Quantencomputing</td>
+          <td style="color:#22c55e;font-weight:bold;font-size:1.2em">70/100</td>
+          <td><span style="background:#22c55e;color:#fff;padding:2px 8px;border-radius:4px">STARK</span></td>
+          <td>$27.7</td>
+          <td style="color:#f59e0b">40.7% unter ATH</td>
+          <td>30 | 20 | 20 | 0</td>
+          <td>13 Artikel</td>
+          <td>– Upgrades</td>
+          <td>3.51</td>
+        </tr>
+        <tr>
+          <td><strong>OKLO</strong></td>
+          <td>Nuklearenergie / SMR</td>
+          <td style="color:#22c55e;font-weight:bold;font-size:1.2em">70/100</td>
+          <td><span style="background:#22c55e;color:#fff;padding:2px 8px;border-radius:4px">STARK</span></td>
+          <td>$65.58</td>
+          <td style="color:#f59e0b">66.2% unter ATH</td>
+          <td>30 | 20 | 20 | 0</td>
+          <td>20 Artikel</td>
+          <td>– Upgrades</td>
+          <td>3.09</td>
+        </tr>
+        <tr>
+          <td><strong>RGTI</strong></td>
+          <td>Quantencomputing</td>
+          <td style="color:#22c55e;font-weight:bold;font-size:1.2em">68/100</td>
+          <td><span style="background:#22c55e;color:#fff;padding:2px 8px;border-radius:4px">STARK</span></td>
+          <td>$24.18</td>
+          <td style="color:#f59e0b">58.4% unter ATH</td>
+          <td>30 | 18 | 20 | 0</td>
+          <td>13 Artikel</td>
+          <td>– Upgrades</td>
+          <td>6.71</td>
+        </tr>
+        <tr>
+          <td><strong>IONQ</strong></td>
+          <td>Quantencomputing</td>
+          <td style="color:#22c55e;font-weight:bold;font-size:1.2em">65/100</td>
+          <td><span style="background:#22c55e;color:#fff;padding:2px 8px;border-radius:4px">STARK</span></td>
+          <td>$67.9</td>
+          <td style="color:#f59e0b">19.8% unter ATH</td>
+          <td>30 | 20 | 15 | 0</td>
+          <td>16 Artikel</td>
+          <td>– Upgrades</td>
+          <td>2.59</td>
+        </tr>
+        <tr>
+          <td><strong>SMR</strong></td>
+          <td>Nuklearenergie / SMR</td>
+          <td style="color:#22c55e;font-weight:bold;font-size:1.2em">62/100</td>
+          <td><span style="background:#22c55e;color:#fff;padding:2px 8px;border-radius:4px">STARK</span></td>
+          <td>$12.42</td>
+          <td style="color:#f59e0b">78.4% unter ATH</td>
+          <td>30 | 12 | 20 | 0</td>
+          <td>19 Artikel</td>
+          <td>– Upgrades</td>
+          <td>4.29</td>
+        </tr>
+        <tr>
+          <td><strong>LEU</strong></td>
+          <td>Nuklearenergie / SMR</td>
+          <td style="color:#22c55e;font-weight:bold;font-size:1.2em">60/100</td>
+          <td><span style="background:#22c55e;color:#fff;padding:2px 8px;border-radius:4px">STARK</span></td>
+          <td>$182.76</td>
+          <td style="color:#f59e0b">60.6% unter ATH</td>
+          <td>30 | 20 | 10 | 0</td>
+          <td>13 Artikel</td>
+          <td>– Upgrades</td>
+          <td>1.87</td>
+        </tr>
+        <tr>
+          <td><strong>RKLB</strong></td>
+          <td>Raumfahrt / Space Tech</td>
+          <td style="color:#22c55e;font-weight:bold;font-size:1.2em">60/100</td>
+          <td><span style="background:#22c55e;color:#fff;padding:2px 8px;border-radius:4px">STARK</span></td>
+          <td>$114.65</td>
+          <td style="color:#f59e0b">24.1% unter ATH</td>
+          <td>30 | 20 | 10 | 0</td>
+          <td>11 Artikel</td>
+          <td>– Upgrades</td>
+          <td>1.61</td>
+        </tr>
+        <tr>
+          <td><strong>S</strong></td>
+          <td>Cybersecurity / KI-Sicherheit</td>
+          <td style="color:#22c55e;font-weight:bold;font-size:1.2em">60/100</td>
+          <td><span style="background:#22c55e;color:#fff;padding:2px 8px;border-radius:4px">STARK</span></td>
+          <td>$16.41</td>
+          <td style="color:#f59e0b">23.3% unter ATH</td>
+          <td>25 | 20 | 15 | 0</td>
+          <td>5 Artikel</td>
+          <td>– Upgrades</td>
+          <td>2.3</td>
+        </tr>
+        <tr>
+          <td><strong>PL</strong></td>
+          <td>Raumfahrt / Space Tech</td>
+          <td style="color:#22c55e;font-weight:bold;font-size:1.2em">59/100</td>
+          <td><span style="background:#22c55e;color:#fff;padding:2px 8px;border-radius:4px">STARK</span></td>
+          <td>$42.85</td>
+          <td style="color:#f59e0b">17.2% unter ATH</td>
+          <td>30 | 14 | 15 | 0</td>
+          <td>8 Artikel</td>
+          <td>– Upgrades</td>
+          <td>2.69</td>
+        </tr>
+        <tr>
+          <td><strong>QUBT</strong></td>
+          <td>Quantencomputing</td>
+          <td style="color:#22c55e;font-weight:bold;font-size:1.2em">58/100</td>
+          <td><span style="background:#22c55e;color:#fff;padding:2px 8px;border-radius:4px">STARK</span></td>
+          <td>$11.28</td>
+          <td style="color:#f59e0b">56.3% unter ATH</td>
+          <td>30 | 8 | 20 | 0</td>
+          <td>17 Artikel</td>
+          <td>– Upgrades</td>
+          <td>3.47</td>
+        </tr>
+        <tr>
+          <td><strong>UEC</strong></td>
+          <td>Nuklearenergie / SMR</td>
+          <td style="color:#22c55e;font-weight:bold;font-size:1.2em">56/100</td>
+          <td><span style="background:#22c55e;color:#fff;padding:2px 8px;border-radius:4px">STARK</span></td>
+          <td>$14.16</td>
+          <td style="color:#f59e0b">30.4% unter ATH</td>
+          <td>30 | 16 | 10 | 0</td>
+          <td>12 Artikel</td>
+          <td>– Upgrades</td>
+          <td>1.89</td>
+        </tr>
+        <tr>
+          <td><strong>LRCX</strong></td>
+          <td>AI Hardware / Semiconductors</td>
+          <td style="color:#22c55e;font-weight:bold;font-size:1.2em">55/100</td>
+          <td><span style="background:#22c55e;color:#fff;padding:2px 8px;border-radius:4px">STARK</span></td>
+          <td>$344.09</td>
+          <td style="color:#f59e0b">-2.5% unter ATH</td>
+          <td>25 | 20 | 10 | 0</td>
+          <td>5 Artikel</td>
+          <td>– Upgrades</td>
+          <td>1.77</td>
+        </tr>
+        <tr>
+          <td><strong>CCJ</strong></td>
+          <td>Nuklearenergie / SMR</td>
+          <td style="color:#22c55e;font-weight:bold;font-size:1.2em">55/100</td>
+          <td><span style="background:#22c55e;color:#fff;padding:2px 8px;border-radius:4px">STARK</span></td>
+          <td>$114.68</td>
+          <td style="color:#f59e0b">15.2% unter ATH</td>
+          <td>30 | 20 | 5 | 0</td>
+          <td>19 Artikel</td>
+          <td>– Upgrades</td>
+          <td>1.26</td>
+        </tr>
+        <tr>
+          <td><strong>VKTX</strong></td>
+          <td>Biotech / GLP-1 / Obesity</td>
+          <td style="color:#22c55e;font-weight:bold;font-size:1.2em">55/100</td>
+          <td><span style="background:#22c55e;color:#fff;padding:2px 8px;border-radius:4px">STARK</span></td>
+          <td>$29.34</td>
+          <td style="color:#f59e0b">32.0% unter ATH</td>
+          <td>30 | 20 | 5 | 0</td>
+          <td>10 Artikel</td>
+          <td>– Upgrades</td>
+          <td>1.37</td>
+        </tr>
+        <tr>
+          <td><strong>FLNC</strong></td>
+          <td>Grid / Batteriespeicher</td>
+          <td style="color:#22c55e;font-weight:bold;font-size:1.2em">55/100</td>
+          <td><span style="background:#22c55e;color:#fff;padding:2px 8px;border-radius:4px">STARK</span></td>
+          <td>$25.1</td>
+          <td style="color:#f59e0b">25.1% unter ATH</td>
+          <td>30 | 10 | 15 | 0</td>
+          <td>15 Artikel</td>
+          <td>– Upgrades</td>
+          <td>2.4</td>
+        </tr>
+        <tr>
+          <td><strong>PLUG</strong></td>
+          <td>Grid / Batteriespeicher</td>
+          <td style="color:#22c55e;font-weight:bold;font-size:1.2em">55/100</td>
+          <td><span style="background:#22c55e;color:#fff;padding:2px 8px;border-radius:4px">STARK</span></td>
+          <td>$3.7</td>
+          <td style="color:#f59e0b">19.2% unter ATH</td>
+          <td>25 | 10 | 20 | 0</td>
+          <td>5 Artikel</td>
+          <td>– Upgrades</td>
+          <td>5.63</td>
+        </tr>
+        <tr>
+          <td><strong>PANW</strong></td>
+          <td>Cybersecurity / KI-Sicherheit</td>
+          <td style="color:#22c55e;font-weight:bold;font-size:1.2em">55/100</td>
+          <td><span style="background:#22c55e;color:#fff;padding:2px 8px;border-radius:4px">STARK</span></td>
+          <td>$279.6</td>
+          <td style="color:#f59e0b">7.7% unter ATH</td>
+          <td>30 | 20 | 5 | 0</td>
+          <td>12 Artikel</td>
+          <td>– Upgrades</td>
+          <td>1.08</td>
+        </tr>
+        <tr>
+          <td><strong>BLDP</strong></td>
+          <td>Grid / Batteriespeicher</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">54/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$6.01</td>
+          <td style="color:#f59e0b">8.5% unter ATH</td>
+          <td>30 | 4 | 20 | 0</td>
+          <td>6 Artikel</td>
+          <td>– Upgrades</td>
+          <td>13.91</td>
+        </tr>
+        <tr>
+          <td><strong>ASTS</strong></td>
+          <td>Raumfahrt / Space Tech</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">54/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$108.48</td>
+          <td style="color:#f59e0b">19.0% unter ATH</td>
+          <td>30 | 4 | 20 | 0</td>
+          <td>8 Artikel</td>
+          <td>– Upgrades</td>
+          <td>3.25</td>
+        </tr>
+        <tr>
+          <td><strong>SATL</strong></td>
+          <td>Raumfahrt / Space Tech</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">53/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$7.71</td>
+          <td style="color:#f59e0b">35.8% unter ATH</td>
+          <td>25 | 8 | 20 | 0</td>
+          <td>5 Artikel</td>
+          <td>– Upgrades</td>
+          <td>9.49</td>
+        </tr>
+        <tr>
+          <td><strong>NNE</strong></td>
+          <td>Nuklearenergie / SMR</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">51/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$26.66</td>
+          <td style="color:#f59e0b">56.2% unter ATH</td>
+          <td>30 | 6 | 15 | 0</td>
+          <td>18 Artikel</td>
+          <td>– Upgrades</td>
+          <td>2.81</td>
+        </tr>
+        <tr>
+          <td><strong>MU</strong></td>
+          <td>AI Memory / HBM</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">50/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$1072.1</td>
+          <td style="color:#f59e0b">0.4% unter ATH</td>
+          <td>30 | 20 | 0 | 0</td>
+          <td>13 Artikel</td>
+          <td>– Upgrades</td>
+          <td>0.88</td>
+        </tr>
+        <tr>
+          <td><strong>WDC</strong></td>
+          <td>AI Memory / HBM</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">50/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$588.9</td>
+          <td style="color:#f59e0b">-3.1% unter ATH</td>
+          <td>30 | 20 | 0 | 0</td>
+          <td>9 Artikel</td>
+          <td>– Upgrades</td>
+          <td>0.66</td>
+        </tr>
+        <tr>
+          <td><strong>ASML</strong></td>
+          <td>AI Hardware / Semiconductors</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">50/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$1733.74</td>
+          <td style="color:#f59e0b">-1.5% unter ATH</td>
+          <td>30 | 20 | 0 | 0</td>
+          <td>12 Artikel</td>
+          <td>– Upgrades</td>
+          <td>0.82</td>
+        </tr>
+        <tr>
+          <td><strong>ROK</strong></td>
+          <td>Robotik / Humanoid</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">50/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$459.99</td>
+          <td style="color:#f59e0b">1.1% unter ATH</td>
+          <td>20 | 20 | 10 | 0</td>
+          <td>4 Artikel</td>
+          <td>– Upgrades</td>
+          <td>1.81</td>
+        </tr>
+        <tr>
+          <td><strong>KTOS</strong></td>
+          <td>Defense Tech / Drohnen</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">50/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$58.3</td>
+          <td style="color:#f59e0b">56.5% unter ATH</td>
+          <td>30 | 20 | 0 | 0</td>
+          <td>9 Artikel</td>
+          <td>– Upgrades</td>
+          <td>0.72</td>
+        </tr>
+        <tr>
+          <td><strong>ARQQ</strong></td>
+          <td>Quantencomputing</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">50/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$14.82</td>
+          <td style="color:#f59e0b">76.1% unter ATH</td>
+          <td>30 | 0 | 20 | 0</td>
+          <td>6 Artikel</td>
+          <td>– Upgrades</td>
+          <td>3.03</td>
+        </tr>
+        <tr>
+          <td><strong>BE</strong></td>
+          <td>Grid / Batteriespeicher</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">50/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$285.89</td>
+          <td style="color:#f59e0b">11.4% unter ATH</td>
+          <td>30 | 20 | 0 | 0</td>
+          <td>14 Artikel</td>
+          <td>– Upgrades</td>
+          <td>0.3</td>
+        </tr>
+        <tr>
+          <td><strong>FCEL</strong></td>
+          <td>Grid / Batteriespeicher</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">50/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$21.94</td>
+          <td style="color:#f59e0b">20.8% unter ATH</td>
+          <td>30 | 0 | 20 | 0</td>
+          <td>7 Artikel</td>
+          <td>– Upgrades</td>
+          <td>4.68</td>
+        </tr>
+        <tr>
+          <td><strong>CRWD</strong></td>
+          <td>Cybersecurity / KI-Sicherheit</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">50/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$753.41</td>
+          <td style="color:#f59e0b">4.1% unter ATH</td>
+          <td>30 | 20 | 0 | 0</td>
+          <td>13 Artikel</td>
+          <td>– Upgrades</td>
+          <td>0.69</td>
+        </tr>
+        <tr>
+          <td><strong>ZS</strong></td>
+          <td>Cybersecurity / KI-Sicherheit</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">50/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$134.4</td>
+          <td style="color:#f59e0b">60.1% unter ATH</td>
+          <td>15 | 20 | 15 | 0</td>
+          <td>3 Artikel</td>
+          <td>– Upgrades</td>
+          <td>2.25</td>
+        </tr>
+        <tr>
+          <td><strong>FTNT</strong></td>
+          <td>Cybersecurity / KI-Sicherheit</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">50/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$146.26</td>
+          <td style="color:#f59e0b">1.9% unter ATH</td>
+          <td>30 | 20 | 0 | 0</td>
+          <td>8 Artikel</td>
+          <td>– Upgrades</td>
+          <td>0.47</td>
+        </tr>
+        <tr>
+          <td><strong>OUST</strong></td>
+          <td>Autonomes Fahren</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">47/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$43.4</td>
+          <td style="color:#f59e0b">12.1% unter ATH</td>
+          <td>30 | 12 | 5 | 0</td>
+          <td>12 Artikel</td>
+          <td>– Upgrades</td>
+          <td>1.08</td>
+        </tr>
+        <tr>
+          <td><strong>MBLY</strong></td>
+          <td>Autonomes Fahren</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">45/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$10.89</td>
+          <td style="color:#f59e0b">46.0% unter ATH</td>
+          <td>5 | 20 | 20 | 0</td>
+          <td>1 Artikel</td>
+          <td>– Upgrades</td>
+          <td>15.48</td>
+        </tr>
+        <tr>
+          <td><strong>LUNR</strong></td>
+          <td>Raumfahrt / Space Tech</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">44/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$33.43</td>
+          <td style="color:#f59e0b">28.5% unter ATH</td>
+          <td>25 | 14 | 5 | 0</td>
+          <td>5 Artikel</td>
+          <td>– Upgrades</td>
+          <td>1.4</td>
+        </tr>
+        <tr>
+          <td><strong>LRCX</strong></td>
+          <td>AI Memory / HBM</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">40/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$344.25</td>
+          <td style="color:#f59e0b">-2.6% unter ATH</td>
+          <td>10 | 20 | 10 | 0</td>
+          <td>2 Artikel</td>
+          <td>– Upgrades</td>
+          <td>1.77</td>
+        </tr>
+        <tr>
+          <td><strong>NRG</strong></td>
+          <td>AI Power / Energy</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">40/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$133.76</td>
+          <td style="color:#f59e0b">29.6% unter ATH</td>
+          <td>0 | 20 | 20 | 0</td>
+          <td>0 Artikel</td>
+          <td>– Upgrades</td>
+          <td>11.98</td>
+        </tr>
+        <tr>
+          <td><strong>CSCO</strong></td>
+          <td>AI Networking</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">40/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$129.33</td>
+          <td style="color:#f59e0b">-0.9% unter ATH</td>
+          <td>0 | 20 | 20 | 0</td>
+          <td>0 Artikel</td>
+          <td>– Upgrades</td>
+          <td>8.16</td>
+        </tr>
+        <tr>
+          <td><strong>STEM</strong></td>
+          <td>Grid / Batteriespeicher</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">40/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$9.13</td>
+          <td style="color:#f59e0b">71.7% unter ATH</td>
+          <td>20 | 0 | 20 | 0</td>
+          <td>4 Artikel</td>
+          <td>– Upgrades</td>
+          <td>3.57</td>
+        </tr>
+        <tr>
+          <td><strong>ONTO</strong></td>
+          <td>AI Memory / HBM</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">39/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$281.67</td>
+          <td style="color:#f59e0b">10.9% unter ATH</td>
+          <td>10 | 14 | 15 | 0</td>
+          <td>2 Artikel</td>
+          <td>– Upgrades</td>
+          <td>2.66</td>
+        </tr>
+        <tr>
+          <td><strong>TT</strong></td>
+          <td>AI Cooling / Infrastructure</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">35/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$465.06</td>
+          <td style="color:#f59e0b">7.6% unter ATH</td>
+          <td>15 | 20 | 0 | 0</td>
+          <td>3 Artikel</td>
+          <td>– Upgrades</td>
+          <td>0.4</td>
+        </tr>
+        <tr>
+          <td><strong>APD</strong></td>
+          <td>AI Cooling / Infrastructure</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">35/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$281.92</td>
+          <td style="color:#f59e0b">8.5% unter ATH</td>
+          <td>0 | 20 | 15 | 0</td>
+          <td>0 Artikel</td>
+          <td>– Upgrades</td>
+          <td>2.44</td>
+        </tr>
+        <tr>
+          <td><strong>AMAT</strong></td>
+          <td>AI Hardware / Semiconductors</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">35/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$500.37</td>
+          <td style="color:#f59e0b">-1.8% unter ATH</td>
+          <td>10 | 20 | 5 | 0</td>
+          <td>2 Artikel</td>
+          <td>– Upgrades</td>
+          <td>1.02</td>
+        </tr>
+        <tr>
+          <td><strong>KLAC</strong></td>
+          <td>AI Hardware / Semiconductors</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">35/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$2127.36</td>
+          <td style="color:#f59e0b">-3.3% unter ATH</td>
+          <td>10 | 20 | 5 | 0</td>
+          <td>2 Artikel</td>
+          <td>– Upgrades</td>
+          <td>1.07</td>
+        </tr>
+        <tr>
+          <td><strong>NVDA</strong></td>
+          <td>Robotik / Humanoid</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">35/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$215.81</td>
+          <td style="color:#f59e0b">8.8% unter ATH</td>
+          <td>0 | 20 | 15 | 0</td>
+          <td>0 Artikel</td>
+          <td>– Upgrades</td>
+          <td>2.47</td>
+        </tr>
+        <tr>
+          <td><strong>AMGN</strong></td>
+          <td>Biotech / GLP-1 / Obesity</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">35/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$337.3</td>
+          <td style="color:#f59e0b">13.8% unter ATH</td>
+          <td>5 | 20 | 10 | 0</td>
+          <td>1 Artikel</td>
+          <td>– Upgrades</td>
+          <td>1.53</td>
+        </tr>
+        <tr>
+          <td><strong>PFE</strong></td>
+          <td>Biotech / GLP-1 / Obesity</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">35/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$25.42</td>
+          <td style="color:#f59e0b">11.6% unter ATH</td>
+          <td>0 | 20 | 15 | 0</td>
+          <td>0 Artikel</td>
+          <td>– Upgrades</td>
+          <td>2.71</td>
+        </tr>
+        <tr>
+          <td><strong>LDOS</strong></td>
+          <td>Defense Tech / Drohnen</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">33/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$125.31</td>
+          <td style="color:#f59e0b">39.1% unter ATH</td>
+          <td>0 | 18 | 15 | 0</td>
+          <td>0 Artikel</td>
+          <td>– Upgrades</td>
+          <td>2.0</td>
+        </tr>
+        <tr>
+          <td><strong>AMAT</strong></td>
+          <td>AI Memory / HBM</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">30/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$500.48</td>
+          <td style="color:#f59e0b">-1.8% unter ATH</td>
+          <td>5 | 20 | 5 | 0</td>
+          <td>1 Artikel</td>
+          <td>– Upgrades</td>
+          <td>1.02</td>
+        </tr>
+        <tr>
+          <td><strong>ETN</strong></td>
+          <td>AI Power / Energy</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">30/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$421.08</td>
+          <td style="color:#f59e0b">3.3% unter ATH</td>
+          <td>0 | 20 | 10 | 0</td>
+          <td>0 Artikel</td>
+          <td>– Upgrades</td>
+          <td>1.89</td>
+        </tr>
+        <tr>
+          <td><strong>EMR</strong></td>
+          <td>AI Power / Energy</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">30/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$140.49</td>
+          <td style="color:#f59e0b">14.9% unter ATH</td>
+          <td>0 | 20 | 10 | 0</td>
+          <td>0 Artikel</td>
+          <td>– Upgrades</td>
+          <td>1.76</td>
+        </tr>
+        <tr>
+          <td><strong>GNRC</strong></td>
+          <td>AI Cooling / Infrastructure</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">30/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$284.49</td>
+          <td style="color:#f59e0b">3.3% unter ATH</td>
+          <td>0 | 20 | 10 | 0</td>
+          <td>0 Artikel</td>
+          <td>– Upgrades</td>
+          <td>1.52</td>
+        </tr>
+        <tr>
+          <td><strong>ISRG</strong></td>
+          <td>Robotik / Humanoid</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">30/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$405.14</td>
+          <td style="color:#f59e0b">32.9% unter ATH</td>
+          <td>5 | 20 | 5 | 0</td>
+          <td>1 Artikel</td>
+          <td>– Upgrades</td>
+          <td>1.23</td>
+        </tr>
+        <tr>
+          <td><strong>PH</strong></td>
+          <td>Robotik / Humanoid</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">30/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$854.86</td>
+          <td style="color:#f59e0b">17.4% unter ATH</td>
+          <td>0 | 20 | 10 | 0</td>
+          <td>0 Artikel</td>
+          <td>– Upgrades</td>
+          <td>1.74</td>
+        </tr>
+        <tr>
+          <td><strong>CACI</strong></td>
+          <td>Defense Tech / Drohnen</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">30/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$531.59</td>
+          <td style="color:#f59e0b">22.2% unter ATH</td>
+          <td>10 | 20 | 0 | 0</td>
+          <td>2 Artikel</td>
+          <td>– Upgrades</td>
+          <td>0.7</td>
+        </tr>
+        <tr>
+          <td><strong>TDG</strong></td>
+          <td>Defense Tech / Drohnen</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">30/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$1216.25</td>
+          <td style="color:#f59e0b">25.1% unter ATH</td>
+          <td>10 | 20 | 0 | 0</td>
+          <td>2 Artikel</td>
+          <td>– Upgrades</td>
+          <td>0.25</td>
+        </tr>
+        <tr>
+          <td><strong>MNTS</strong></td>
+          <td>Raumfahrt / Space Tech</td>
+          <td style="color:#f59e0b;font-weight:bold;font-size:1.2em">30/100</td>
+          <td><span style="background:#f59e0b;color:#fff;padding:2px 8px;border-radius:4px">MODERAT</span></td>
+          <td>$12.95</td>
+          <td style="color:#f59e0b">70.3% unter ATH</td>
+          <td>30 | 0 | 0 | 0</td>
+          <td>11 Artikel</td>
+          <td>– Upgrades</td>
+          <td>–</td>
+        </tr>
+        <tr>
+          <td><strong>ONTO</strong></td>
+          <td>AI Hardware / Semiconductors</td>
+          <td style="color:#6b7280;font-weight:bold;font-size:1.2em">29/100</td>
+          <td><span style="background:#6b7280;color:#fff;padding:2px 8px;border-radius:4px">SCHWACH</span></td>
+          <td>$281.67</td>
+          <td style="color:#f59e0b">10.9% unter ATH</td>
+          <td>0 | 14 | 15 | 0</td>
+          <td>0 Artikel</td>
+          <td>– Upgrades</td>
+          <td>2.66</td>
+        </tr>
+        <tr>
+          <td><strong>VST</strong></td>
+          <td>AI Power / Energy</td>
+          <td style="color:#6b7280;font-weight:bold;font-size:1.2em">25/100</td>
+          <td><span style="background:#6b7280;color:#fff;padding:2px 8px;border-radius:4px">SCHWACH</span></td>
+          <td>$153.9</td>
+          <td style="color:#f59e0b">30.0% unter ATH</td>
+          <td>5 | 20 | 0 | 0</td>
+          <td>1 Artikel</td>
+          <td>– Upgrades</td>
+          <td>0.47</td>
+        </tr>
+        <tr>
+          <td><strong>CEG</strong></td>
+          <td>AI Power / Energy</td>
+          <td style="color:#6b7280;font-weight:bold;font-size:1.2em">25/100</td>
+          <td><span style="background:#6b7280;color:#fff;padding:2px 8px;border-radius:4px">SCHWACH</span></td>
+          <td>$266.0</td>
+          <td style="color:#f59e0b">35.5% unter ATH</td>
+          <td>0 | 20 | 5 | 0</td>
+          <td>0 Artikel</td>
+          <td>– Upgrades</td>
+          <td>1.25</td>
+        </tr>
+        <tr>
+          <td><strong>GEV</strong></td>
+          <td>AI Power / Energy</td>
+          <td style="color:#6b7280;font-weight:bold;font-size:1.2em">25/100</td>
+          <td><span style="background:#6b7280;color:#fff;padding:2px 8px;border-radius:4px">SCHWACH</span></td>
+          <td>$959.09</td>
+          <td style="color:#f59e0b">18.9% unter ATH</td>
+          <td>5 | 20 | 0 | 0</td>
+          <td>1 Artikel</td>
+          <td>– Upgrades</td>
+          <td>0.69</td>
+        </tr>
+        <tr>
+          <td><strong>VRT</strong></td>
+          <td>AI Cooling / Infrastructure</td>
+          <td style="color:#6b7280;font-weight:bold;font-size:1.2em">25/100</td>
+          <td><span style="background:#6b7280;color:#fff;padding:2px 8px;border-radius:4px">SCHWACH</span></td>
+          <td>$333.6</td>
+          <td style="color:#f59e0b">12.2% unter ATH</td>
+          <td>5 | 20 | 0 | 0</td>
+          <td>1 Artikel</td>
+          <td>– Upgrades</td>
+          <td>0.95</td>
+        </tr>
+        <tr>
+          <td><strong>LITE</strong></td>
+          <td>AI Networking</td>
+          <td style="color:#6b7280;font-weight:bold;font-size:1.2em">25/100</td>
+          <td><span style="background:#6b7280;color:#fff;padding:2px 8px;border-radius:4px">SCHWACH</span></td>
+          <td>$940.59</td>
+          <td style="color:#f59e0b">13.4% unter ATH</td>
+          <td>5 | 20 | 0 | 0</td>
+          <td>1 Artikel</td>
+          <td>– Upgrades</td>
+          <td>0.66</td>
+        </tr>
+        <tr>
+          <td><strong>TSM</strong></td>
+          <td>AI Hardware / Semiconductors</td>
+          <td style="color:#6b7280;font-weight:bold;font-size:1.2em">25/100</td>
+          <td><span style="background:#6b7280;color:#fff;padding:2px 8px;border-radius:4px">SCHWACH</span></td>
+          <td>$440.42</td>
+          <td style="color:#f59e0b">2.0% unter ATH</td>
+          <td>5 | 20 | 0 | 0</td>
+          <td>1 Artikel</td>
+          <td>– Upgrades</td>
+          <td>0.5</td>
+        </tr>
+        <tr>
+          <td><strong>MSTR</strong></td>
+          <td>Autonomes Fahren</td>
+          <td style="color:#6b7280;font-weight:bold;font-size:1.2em">25/100</td>
+          <td><span style="background:#6b7280;color:#fff;padding:2px 8px;border-radius:4px">SCHWACH</span></td>
+          <td>$130.35</td>
+          <td style="color:#f59e0b">71.5% unter ATH</td>
+          <td>0 | 20 | 5 | 0</td>
+          <td>0 Artikel</td>
+          <td>– Upgrades</td>
+          <td>1.1</td>
+        </tr>
+        <tr>
+          <td><strong>RYTM</strong></td>
+          <td>Biotech / GLP-1 / Obesity</td>
+          <td style="color:#6b7280;font-weight:bold;font-size:1.2em">25/100</td>
+          <td><span style="background:#6b7280;color:#fff;padding:2px 8px;border-radius:4px">SCHWACH</span></td>
+          <td>$84.26</td>
+          <td style="color:#f59e0b">31.0% unter ATH</td>
+          <td>5 | 20 | 0 | 0</td>
+          <td>1 Artikel</td>
+          <td>– Upgrades</td>
+          <td>0.31</td>
+        </tr>
+        <tr>
+          <td><strong>PRAX</strong></td>
+          <td>Biotech / GLP-1 / Obesity</td>
+          <td style="color:#6b7280;font-weight:bold;font-size:1.2em">25/100</td>
+          <td><span style="background:#6b7280;color:#fff;padding:2px 8px;border-radius:4px">SCHWACH</span></td>
+          <td>$270.56</td>
+          <td style="color:#f59e0b">26.2% unter ATH</td>
+          <td>5 | 20 | 0 | 0</td>
+          <td>1 Artikel</td>
+          <td>– Upgrades</td>
+          <td>0.86</td>
+        </tr>
+        <tr>
+          <td><strong>JCI</strong></td>
+          <td>AI Cooling / Infrastructure</td>
+          <td style="color:#6b7280;font-weight:bold;font-size:1.2em">20/100</td>
+          <td><span style="background:#6b7280;color:#fff;padding:2px 8px;border-radius:4px">SCHWACH</span></td>
+          <td>$147.35</td>
+          <td style="color:#f59e0b">-0.0% unter ATH</td>
+          <td>0 | 20 | 0 | 0</td>
+          <td>0 Artikel</td>
+          <td>– Upgrades</td>
+          <td>0.11</td>
+        </tr>
+        <tr>
+          <td><strong>CIEN</strong></td>
+          <td>AI Networking</td>
+          <td style="color:#6b7280;font-weight:bold;font-size:1.2em">20/100</td>
+          <td><span style="background:#6b7280;color:#fff;padding:2px 8px;border-radius:4px">SCHWACH</span></td>
+          <td>$628.15</td>
+          <td style="color:#f59e0b">0.2% unter ATH</td>
+          <td>0 | 20 | 0 | 0</td>
+          <td>0 Artikel</td>
+          <td>– Upgrades</td>
+          <td>0.49</td>
+        </tr>
+        <tr>
+          <td><strong>COHR</strong></td>
+          <td>AI Networking</td>
+          <td style="color:#6b7280;font-weight:bold;font-size:1.2em">20/100</td>
+          <td><span style="background:#6b7280;color:#fff;padding:2px 8px;border-radius:4px">SCHWACH</span></td>
+          <td>$417.0</td>
+          <td style="color:#f59e0b">3.8% unter ATH</td>
+          <td>0 | 20 | 0 | 0</td>
+          <td>0 Artikel</td>
+          <td>– Upgrades</td>
+          <td>0.14</td>
+        </tr>
+        <tr>
+          <td><strong>HII</strong></td>
+          <td>Defense Tech / Drohnen</td>
+          <td style="color:#6b7280;font-weight:bold;font-size:1.2em">15/100</td>
+          <td><span style="background:#6b7280;color:#fff;padding:2px 8px;border-radius:4px">SCHWACH</span></td>
+          <td>$289.08</td>
+          <td style="color:#f59e0b">37.2% unter ATH</td>
+          <td>0 | 10 | 5 | 0</td>
+          <td>0 Artikel</td>
+          <td>– Upgrades</td>
+          <td>1.09</td>
+        </tr>
+        <tr>
+          <td><strong>FANUY</strong></td>
+          <td>Robotik / Humanoid</td>
+          <td style="color:#6b7280;font-weight:bold;font-size:1.2em">5/100</td>
+          <td><span style="background:#6b7280;color:#fff;padding:2px 8px;border-radius:4px">SCHWACH</span></td>
+          <td>$24.84</td>
+          <td style="color:#f59e0b">9.8% unter ATH</td>
+          <td>5 | 0 | 0 | 0</td>
+          <td>1 Artikel</td>
+          <td>– Upgrades</td>
+          <td>–</td>
+        </tr>
+        <tr>
+          <td><strong>ABB</strong></td>
+          <td>Robotik / Humanoid</td>
+          <td style="color:#6b7280;font-weight:bold;font-size:1.2em">0/100</td>
+          <td><span style="background:#6b7280;color:#fff;padding:2px 8px;border-radius:4px">SCHWACH</span></td>
+          <td>$0</td>
+          <td style="color:#f59e0b">0% unter ATH</td>
+          <td>0 | 0 | 0 | 0</td>
+          <td>0 Artikel</td>
+          <td>– Upgrades</td>
+          <td>–</td>
+        </tr>
+        <tr>
+          <td><strong>MOBILEYE</strong></td>
+          <td>Autonomes Fahren</td>
+          <td style="color:#6b7280;font-weight:bold;font-size:1.2em">0/100</td>
+          <td><span style="background:#6b7280;color:#fff;padding:2px 8px;border-radius:4px">SCHWACH</span></td>
+          <td>$0</td>
+          <td style="color:#f59e0b">0% unter ATH</td>
+          <td>0 | 0 | 0 | 0</td>
+          <td>0 Artikel</td>
+          <td>– Upgrades</td>
+          <td>–</td>
+        </tr>
+        <tr>
+          <td><strong>LAZR</strong></td>
+          <td>Autonomes Fahren</td>
+          <td style="color:#6b7280;font-weight:bold;font-size:1.2em">0/100</td>
+          <td><span style="background:#6b7280;color:#fff;padding:2px 8px;border-radius:4px">SCHWACH</span></td>
+          <td>$0</td>
+          <td style="color:#f59e0b">0% unter ATH</td>
+          <td>0 | 0 | 0 | 0</td>
+          <td>0 Artikel</td>
+          <td>– Upgrades</td>
+          <td>–</td>
+        </tr>
+        <tr>
+          <td><strong>ZFOX</strong></td>
+          <td>Biotech / GLP-1 / Obesity</td>
+          <td style="color:#6b7280;font-weight:bold;font-size:1.2em">0/100</td>
+          <td><span style="background:#6b7280;color:#fff;padding:2px 8px;border-radius:4px">SCHWACH</span></td>
+          <td>$0</td>
+          <td style="color:#f59e0b">0% unter ATH</td>
+          <td>0 | 0 | 0 | 0</td>
+          <td>0 Artikel</td>
+          <td>– Upgrades</td>
+          <td>–</td>
+        </tr>
+        <tr>
+          <td><strong>CYBR</strong></td>
+          <td>Cybersecurity / KI-Sicherheit</td>
+          <td style="color:#6b7280;font-weight:bold;font-size:1.2em">0/100</td>
+          <td><span style="background:#6b7280;color:#fff;padding:2px 8px;border-radius:4px">SCHWACH</span></td>
+          <td>$0</td>
+          <td style="color:#f59e0b">0% unter ATH</td>
+          <td>0 | 0 | 0 | 0</td>
+          <td>0 Artikel</td>
+          <td>– Upgrades</td>
+          <td>–</td>
+        </tr>
+</table>
+
+<h2>Google Trends — Themen-Momentum</h2>
+<table>
+  <tr><th>Thema</th><th>Trends-Score</th><th>Wachstum vs. 90-Tage-Schnitt</th></tr>
+  <tr><td>AI Memory / HBM</td><td>0/30</td><td>-37.1%</td></tr><tr><td>AI Power / Energy</td><td>0/30</td><td>-78.5%</td></tr><tr><td>AI Cooling / Infrastructure</td><td>0/30</td><td>-43.8%</td></tr><tr><td>AI Networking</td><td>0/30</td><td>-53.0%</td></tr><tr><td>AI Hardware / Semiconductors</td><td>0/30</td><td>-57.6%</td></tr><tr><td>Robotik / Humanoid</td><td>0/30</td><td>-46.3%</td></tr><tr><td>Defense Tech / Drohnen</td><td>0/30</td><td>-38.9%</td></tr><tr><td>Quantencomputing</td><td>0/30</td><td>-40.2%</td></tr><tr><td>Nuklearenergie / SMR</td><td>0/30</td><td>-63.9%</td></tr><tr><td>Autonomes Fahren</td><td>0/30</td><td>-62.5%</td></tr><tr><td>Biotech / GLP-1 / Obesity</td><td>0/30</td><td>-21.2%</td></tr><tr><td>Grid / Batteriespeicher</td><td>0/30</td><td>-33.9%</td></tr><tr><td>Raumfahrt / Space Tech</td><td>0/30</td><td>-63.7%</td></tr><tr><td>Cybersecurity / KI-Sicherheit</td><td>0/30</td><td>-70.3%</td></tr>
+</table>
+
+<p style="color:#475569;font-size:0.8em">Kein Finanzberatung. Nur zur Analyse.</p>
+</body>
+</html>
