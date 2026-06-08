@@ -31,7 +31,7 @@
   },
   "Robotik / Humanoid": {
     "trigger_tickers": ["TSLA", "AMZN", "GOOGL"],
-    "beneficiary_tickers": ["ISRG", "ABB", "ROK", "PH", "FANUY", "NVDA"],
+    "beneficiary_tickers": ["ISRG", "ROK", "PH", "TER", "BRKS", "NVDA"],
     "search_keywords": ["humanoid robot", "industrial robot", "robot automation", "Figure AI"],
     "rss_keywords": ["humanoid robot", "robot automation", "Optimus robot", "industrial automation", "cobots"]
   },
@@ -55,13 +55,13 @@
   },
   "Autonomes Fahren": {
     "trigger_tickers": ["TSLA", "GOOGL", "UBER"],
-    "beneficiary_tickers": ["MOBILEYE", "MBLY", "LAZR", "OUST", "MSTR"],
+    "beneficiary_tickers": ["MBLY", "OUST", "MOBE", "INVZ", "BLDE"],
     "search_keywords": ["autonomous vehicle", "self-driving car", "robotaxi", "Waymo"],
     "rss_keywords": ["autonomous vehicle", "self-driving", "robotaxi", "Waymo", "Tesla FSD", "lidar"]
   },
   "Biotech / GLP-1 / Obesity": {
     "trigger_tickers": ["LLY", "NVO"],
-    "beneficiary_tickers": ["ZFOX", "RYTM", "VKTX", "AMGN", "PFE", "PRAX"],
+    "beneficiary_tickers": ["RYTM", "VKTX", "AMGN", "PFE", "PRAX", "VIKING"],
     "search_keywords": ["GLP-1 drug", "obesity drug", "weight loss medication", "semaglutide"],
     "rss_keywords": ["GLP-1", "obesity drug", "weight loss", "semaglutide", "Ozempic", "Wegovy", "tirzepatide"]
   },
@@ -73,13 +73,13 @@
   },
   "Raumfahrt / Space Tech": {
     "trigger_tickers": ["SPCE", "RKT", "LMT"],
-    "beneficiary_tickers": ["RKLB", "ASTS", "LUNR", "PL", "MNTS", "SATL"],
+    "beneficiary_tickers": ["RKLB", "ASTS", "LUNR", "PL", "SPIR", "RDW"],
     "search_keywords": ["space technology", "satellite internet", "rocket launch", "SpaceX"],
     "rss_keywords": ["space technology", "satellite", "rocket launch", "Rocket Lab", "AST SpaceMobile", "Starlink"]
   },
   "Cybersecurity / KI-Sicherheit": {
     "trigger_tickers": ["MSFT", "GOOG", "AMZN"],
-    "beneficiary_tickers": ["CRWD", "PANW", "ZS", "S", "FTNT", "CYBR"],
+    "beneficiary_tickers": ["CRWD", "PANW", "ZS", "S", "FTNT", "TENB"],
     "search_keywords": ["AI cybersecurity", "cyber attack AI", "zero trust security"],
     "rss_keywords": ["cybersecurity", "cyber attack", "ransomware", "CrowdStrike", "Palo Alto", "zero trust"]
   }

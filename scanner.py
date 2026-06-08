@@ -351,6 +351,13 @@ def main():
     print(f"  {datetime.now().strftime('%d.%m.%Y %H:%M')}")
     print("=" * 60)
 
+    # Doppelter Run verhindern: wenn heute schon ein Report existiert, abbrechen
+    heute = datetime.now().strftime("%Y-%m-%d")
+    report_pfad = REPORT_DIR / f"report_{heute}.html"
+    if report_pfad.exists():
+        print(f"✓ Report fuer {heute} existiert bereits — kein zweiter Run noetig.")
+        return
+
     alle_ergebnisse  = []
     trends_scores    = {}
 

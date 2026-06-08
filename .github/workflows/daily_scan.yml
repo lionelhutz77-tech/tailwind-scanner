@@ -2,8 +2,10 @@ name: Daily Tailwind Scan
 
 on:
   schedule:
-    # Jeden Werktag um 07:00 Uhr deutscher Zeit (= 05:00 UTC im Sommer)
-    - cron: "0 5 * * 1-5"
+    # Jeden Werktag um 08:00 Uhr deutscher Zeit (= 06:00 UTC im Sommer)
+    # Zweiter Versuch um 09:00 Uhr falls GitHub den ersten verzögert (= 07:00 UTC)
+    - cron: "0 6 * * 1-5"
+    - cron: "0 7 * * 1-5"
   workflow_dispatch:  # Manuell startbar per Knopf auf GitHub
 
 permissions:
