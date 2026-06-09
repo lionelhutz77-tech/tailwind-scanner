@@ -2,10 +2,13 @@ name: Daily Tailwind Scan
 
 on:
   schedule:
-    # Jeden Werktag um 08:00 Uhr deutscher Zeit (= 06:00 UTC im Sommer)
-    # Zweiter Versuch um 09:00 Uhr falls GitHub den ersten verzögert (= 07:00 UTC)
+    # 5 Versuche pro Tag (06-10 UTC = 08-12 Uhr DE) — einer davon wird GitHub zuverlaessig ausfuehren
+    # Doppel-Run-Schutz im scanner.py verhindert mehrfachen Scan am selben Tag
     - cron: "0 6 * * 1-5"
     - cron: "0 7 * * 1-5"
+    - cron: "0 8 * * 1-5"
+    - cron: "0 9 * * 1-5"
+    - cron: "0 10 * * 1-5"
   workflow_dispatch:  # Manuell startbar per Knopf auf GitHub
 
 permissions:
@@ -36,11 +39,11 @@ jobs:
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
 
-      - name: Report committen
+      - name: Report und JSON committen
         run: |
           git config user.name  "Tailwind Scanner Bot"
           git config user.email "bot@tailwind-scanner"
-          git add reports/
-          git diff --cached --quiet || git commit -m "Report $(date +'%Y-%m-%d')"
+          git add reports/ data/
+          git diff --cached --quiet || git commit -m "Report + Signale $(date +'%Y-%m-%d')"
           git pull --rebase
           git push
