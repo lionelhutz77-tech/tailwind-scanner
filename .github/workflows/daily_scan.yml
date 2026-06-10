@@ -39,11 +39,11 @@ jobs:
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
 
-      - name: Report und JSON committen
+      - name: Report committen
         run: |
           git config user.name  "Tailwind Scanner Bot"
           git config user.email "bot@tailwind-scanner"
-          git add reports/ data/
-          git diff --cached --quiet || git commit -m "Report + Signale $(date +'%Y-%m-%d')"
+          git add reports/
+          git diff --cached --quiet || git commit -m "Report $(date +'%Y-%m-%d')"
           git pull --rebase
           git push
