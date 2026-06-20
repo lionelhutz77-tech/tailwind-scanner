@@ -47,9 +47,13 @@ def sende_telegram(ergebnisse: list[dict], trends_scores: dict, report_pfad: Pat
             zeilen.append(f"\n<b>{e['thema']}</b>")
             letztes_thema = e["thema"]
 
+        upside = ki.get("upside_pct")
+        upside_str = f"+{upside}% Upside" if upside and upside > 0 else ""
+        ziel_str   = f"→ ${ki['ziel_kurs']}" if ki.get("ziel_kurs") else ""
+
         zeilen.append(
             f"{symbol} <code>{e['ticker']:6s}</code> {gesamt:3d}/100"
-            f"  ${ki['kurs']}  ({ki['abstand_ath_prozent']}% unter ATH)"
+            f"  ${ki['kurs']} {ziel_str} {upside_str}"
         )
 
     stark_count   = sum(1 for e in ergebnisse if e["signal_stufe"] == "STARK")

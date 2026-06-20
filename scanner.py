@@ -196,32 +196,39 @@ def berechne_options_score(ticker: str) -> tuple[int, dict]:
 # ─── Kurs-Check ───────────────────────────────────────────────────────────────
 
 def hole_kurs_info(ticker: str) -> dict:
-    """Aktueller Kurs + 52-Wochen-Abstand (wie weit unter ATH?)."""
+    """Aktueller Kurs + 52-Wochen-Abstand + Analysten-Kursziel (Upside %)."""
     try:
         tk   = yf.Ticker(ticker)
         info = tk.fast_info
-        # fast_info.last_price kann fehlerhaft sein — Fallback auf history()
         try:
             hist = tk.history(period="2d")
             kurs = round(float(hist["Close"].iloc[-1]), 2) if not hist.empty else round(float(info.last_price or 0), 2)
         except Exception:
             kurs = round(float(info.last_price or 0), 2)
+
         hoch_52w = round(float(info.year_high or 0), 2)
         tief_52w = round(float(info.year_low  or 0), 2)
+        abstand_ath = round((hoch_52w - kurs) / hoch_52w * 100, 1) if hoch_52w > 0 else 0.0
 
-        if hoch_52w > 0:
-            abstand_ath = round((hoch_52w - kurs) / hoch_52w * 100, 1)
-        else:
-            abstand_ath = 0.0
+        # Analysten-Kursziel (Konsensus)
+        try:
+            full_info   = tk.info
+            ziel_kurs   = round(float(full_info.get("targetMeanPrice") or 0), 2)
+            upside_pct  = round((ziel_kurs - kurs) / kurs * 100, 1) if kurs > 0 and ziel_kurs > 0 else None
+        except Exception:
+            ziel_kurs  = 0
+            upside_pct = None
 
         return {
             "kurs": kurs,
             "hoch_52w": hoch_52w,
             "tief_52w": tief_52w,
             "abstand_ath_prozent": abstand_ath,
+            "ziel_kurs": ziel_kurs,
+            "upside_pct": upside_pct,
         }
     except Exception:
-        return {"kurs": 0, "hoch_52w": 0, "tief_52w": 0, "abstand_ath_prozent": 0}
+        return {"kurs": 0, "hoch_52w": 0, "tief_52w": 0, "abstand_ath_prozent": 0, "ziel_kurs": 0, "upside_pct": None}
 
 
 # ─── Gesamt-Score ─────────────────────────────────────────────────────────────
@@ -279,6 +286,11 @@ def erstelle_html(ergebnisse: list[dict], trends_scores: dict) -> str:
         trend_score = trend_info.get("score", 0)
         gesamt_mit_trend = min(100, e["gesamt_score"] + trend_score)
 
+        upside = ki.get("upside_pct")
+        upside_str = f"+{upside}%" if upside and upside > 0 else (f"{upside}%" if upside is not None else "–")
+        upside_farbe = "#22c55e" if upside and upside > 0 else "#ef4444"
+        ziel_str = f"${ki['ziel_kurs']}" if ki.get("ziel_kurs") else "–"
+
         zeilen += f"""
         <tr>
           <td><strong>{e['ticker']}</strong></td>
@@ -286,10 +298,12 @@ def erstelle_html(ergebnisse: list[dict], trends_scores: dict) -> str:
           <td style="color:{farbe};font-weight:bold;font-size:1.2em">{gesamt_mit_trend}/100</td>
           <td><span style="background:{farbe};color:#fff;padding:2px 8px;border-radius:4px">{e['signal_stufe']}</span></td>
           <td>${ki['kurs']}</td>
+          <td>{ziel_str}</td>
+          <td style="color:{upside_farbe};font-weight:bold">{upside_str}</td>
           <td style="color:#f59e0b">{ki['abstand_ath_prozent']}% unter ATH</td>
           <td>{s['news']} | {s['revisions']} | {s['options']} | {trend_score}</td>
           <td>{d['news_treffer']} Artikel</td>
-          <td>{d['revisions'].get('upgrades_30d', '–')} Upgrades</td>
+          <td>{d['revisions'].get('bull_analysten', '–')} Bullen</td>
           <td>{d['options'].get('call_put_ratio', '–')}</td>
         </tr>"""
 
@@ -325,9 +339,9 @@ def erstelle_html(ergebnisse: list[dict], trends_scores: dict) -> str:
 <table>
   <tr>
     <th>Ticker</th><th>Thema</th><th>Score</th><th>Signal</th>
-    <th>Kurs</th><th>ATH-Abstand</th>
+    <th>Einstieg</th><th>Ziel (Analysten)</th><th>Upside %</th><th>ATH-Abstand</th>
     <th>News|Rev|Opt|Trend</th>
-    <th>News-Treffer</th><th>Upgrades 30d</th><th>Call/Put</th>
+    <th>News-Treffer</th><th>Bull-Analysten</th><th>Call/Put</th>
   </tr>
   {zeilen}
 </table>
@@ -341,6 +355,79 @@ def erstelle_html(ergebnisse: list[dict], trends_scores: dict) -> str:
 <p style="color:#475569;font-size:0.8em">Kein Finanzberatung. Nur zur Analyse.</p>
 </body>
 </html>"""
+
+
+# ─── JSON-Export fuer Trading-System ─────────────────────────────────────────
+
+DATA_DIR = BASE_DIR / "data"
+
+def speichere_json(alle_ergebnisse: list[dict], trends_scores: dict):
+    """
+    Speichert die Scan-Ergebnisse als maschinenlesbare JSON-Datei.
+    Wird vom Trading-System als tailwind_connector gelesen.
+    Pfad: data/latest_signals.json
+    """
+    DATA_DIR.mkdir(exist_ok=True)
+
+    heute = datetime.now().strftime("%Y-%m-%d")
+    uhrzeit = datetime.now().strftime("%H:%M:%S")
+
+    signale_liste = []
+    for e in alle_ergebnisse:
+        # Trends-Score auf Ticker-Ebene anwenden
+        t_score = trends_scores.get(e["thema"], {}).get("score", 0)
+        gesamt_mit_trend = min(100, e["gesamt_score"] + t_score)
+
+        signal_stufe = (
+            "STARK"   if gesamt_mit_trend >= 55 else
+            "MODERAT" if gesamt_mit_trend >= 30 else
+            "SCHWACH"
+        )
+
+        signale_liste.append({
+            "ticker":       e["ticker"],
+            "thema":        e["thema"],
+            "gesamt_score": gesamt_mit_trend,
+            "signal_stufe": signal_stufe,
+            "kurs_info":    e["kurs_info"],
+            "scores": {
+                "news":      e["scores"]["news"],
+                "revisions": e["scores"]["revisions"],
+                "options":   e["scores"]["options"],
+                "trends":    t_score,
+            },
+            "details": e["details"],
+        })
+
+    # Nach Score sortieren
+    signale_liste.sort(key=lambda x: x["gesamt_score"], reverse=True)
+
+    stark   = [s for s in signale_liste if s["signal_stufe"] == "STARK"]
+    moderat = [s for s in signale_liste if s["signal_stufe"] == "MODERAT"]
+
+    ausgabe = {
+        "meta": {
+            "scan_datum":     heute,
+            "scan_uhrzeit":   uhrzeit,
+            "total_signale":  len(signale_liste),
+            "stark_count":    len(stark),
+            "moderat_count":  len(moderat),
+            "top_ticker":     signale_liste[0]["ticker"] if signale_liste else "",
+        },
+        "signals": signale_liste,
+        "themes": {
+            thema: {
+                "trends_score":      info.get("score", 0),
+                "wachstum_prozent":  info.get("details", {}).get("wachstum_prozent", 0),
+            }
+            for thema, info in trends_scores.items()
+        },
+    }
+
+    json_pfad = DATA_DIR / "latest_signals.json"
+    json_pfad.write_text(json.dumps(ausgabe, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"✓ JSON gespeichert: {json_pfad}")
+    return json_pfad
 
 
 # ─── Hauptprogramm ────────────────────────────────────────────────────────────
@@ -375,12 +462,15 @@ def main():
             alle_ergebnisse.append(ergebnis)
             time.sleep(0.5)  # yfinance Rate-Limit
 
-    # Report speichern
+    # HTML-Report speichern
     heute = datetime.now().strftime("%Y-%m-%d")
     report_pfad = REPORT_DIR / f"report_{heute}.html"
     html = erstelle_html(alle_ergebnisse, trends_scores)
     report_pfad.write_text(html, encoding="utf-8")
-    print(f"\n✓ Report gespeichert: {report_pfad}")
+    print(f"\n✓ HTML gespeichert: {report_pfad}")
+
+    # JSON fuer Trading-System speichern
+    speichere_json(alle_ergebnisse, trends_scores)
 
     # Telegram-Benachrichtigung
     sende_telegram(alle_ergebnisse, trends_scores, report_pfad)
