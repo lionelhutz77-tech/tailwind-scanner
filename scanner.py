@@ -114,7 +114,7 @@ def zaehle_news_treffer(ticker: str, keywords: list[str]) -> tuple[int, int]:
 # ─── Analyst-Revisions Score (0–20) ──────────────────────────────────────────
 
 def berechne_revisions_score(ticker: str) -> tuple[int, dict]:
-    """Wertet Analyst-Konsensus aus. yfinance liefert strongBuy/buy/hold/sell Zaehler."""
+    """Bewertet nur positive Analysten-Revisionen, nicht den statischen Konsens."""
     try:
         tk = yf.Ticker(ticker)
         recs = tk.recommendations
@@ -131,20 +131,25 @@ def berechne_revisions_score(ticker: str) -> tuple[int, dict]:
         kauf        = int(neueste.get("buy", 0))
         gesamt_bull = stark_kauf + kauf
 
-        # Vergleich mit vorherigem Monat falls vorhanden
-        trend_hinweis = ""
+        # Ein Tailwind ist eine Veraenderung. Ohne Vergleichsperiode gibt es
+        # deshalb keine belastbare Revisions-Evidenz.
+        vorher_bull = None
+        delta_bull = 0
+        trend_hinweis = "nicht_verfuegbar"
         if len(recs) >= 2:
             vorher = recs.iloc[1]
             vorher_bull = int(vorher.get("strongBuy", 0)) + int(vorher.get("buy", 0))
-            if gesamt_bull > vorher_bull:
-                trend_hinweis = "steigend"
-            elif gesamt_bull < vorher_bull:
-                trend_hinweis = "fallend"
-            else:
-                trend_hinweis = "stabil"
+            delta_bull = gesamt_bull - vorher_bull
+            trend_hinweis = "steigend" if delta_bull > 0 else ("fallend" if delta_bull < 0 else "stabil")
 
-        score = min(20, gesamt_bull * 2)
-        return score, {"bull_analysten": gesamt_bull, "davon_strong_buy": stark_kauf, "trend": trend_hinweis}
+        score = min(20, max(0, delta_bull) * 5)
+        return score, {
+            "bull_analysten": gesamt_bull,
+            "vorher_bull_analysten": vorher_bull,
+            "delta_bull_analysten": delta_bull,
+            "davon_strong_buy": stark_kauf,
+            "trend": trend_hinweis,
+        }
 
     except Exception as e:
         print(f"[WARN] Revisions-Fehler {ticker}: {e}")
@@ -170,6 +175,16 @@ def berechne_options_score(ticker: str) -> tuple[int, dict]:
         call_vol = calls["volume"].fillna(0).sum()
         put_vol  = puts["volume"].fillna(0).sum()
 
+        # Sehr kleine Stichproben und 0/0 sind keine bullische Evidenz.
+        gesamt_vol = call_vol + put_vol
+        if gesamt_vol < 100:
+            return 0, {
+                "call_put_ratio": None,
+                "call_vol": int(call_vol),
+                "put_vol": int(put_vol),
+                "quality": "zu_wenig_volumen",
+            }
+
         if put_vol == 0:
             ratio = 5.0
         else:
@@ -186,7 +201,12 @@ def berechne_options_score(ticker: str) -> tuple[int, dict]:
         else:
             score = 0
 
-        return score, {"call_put_ratio": round(ratio, 2), "call_vol": int(call_vol), "put_vol": int(put_vol)}
+        return score, {
+            "call_put_ratio": round(ratio, 2),
+            "call_vol": int(call_vol),
+            "put_vol": int(put_vol),
+            "quality": "ausreichend",
+        }
 
     except Exception as e:
         print(f"[WARN] Options-Fehler {ticker}: {e}")
@@ -278,13 +298,18 @@ def erstelle_html(ergebnisse: list[dict], trends_scores: dict) -> str:
 
     zeilen = ""
     for e in sorted(ergebnisse, key=lambda x: x["gesamt_score"], reverse=True):
-        farbe = AMPEL[e["signal_stufe"]]
         ki = e["kurs_info"]
         s  = e["scores"]
         d  = e["details"]
         trend_info = trends_scores.get(e["thema"], {})
         trend_score = trend_info.get("score", 0)
         gesamt_mit_trend = min(100, e["gesamt_score"] + trend_score)
+        signal_stufe = (
+            "STARK" if gesamt_mit_trend >= 55 else
+            "MODERAT" if gesamt_mit_trend >= 30 else
+            "SCHWACH"
+        )
+        farbe = AMPEL[signal_stufe]
 
         upside = ki.get("upside_pct")
         upside_str = f"+{upside}%" if upside and upside > 0 else (f"{upside}%" if upside is not None else "–")
@@ -296,7 +321,7 @@ def erstelle_html(ergebnisse: list[dict], trends_scores: dict) -> str:
           <td><strong>{e['ticker']}</strong></td>
           <td>{e['thema']}</td>
           <td style="color:{farbe};font-weight:bold;font-size:1.2em">{gesamt_mit_trend}/100</td>
-          <td><span style="background:{farbe};color:#fff;padding:2px 8px;border-radius:4px">{e['signal_stufe']}</span></td>
+          <td><span style="background:{farbe};color:#fff;padding:2px 8px;border-radius:4px">{signal_stufe}</span></td>
           <td>${ki['kurs']}</td>
           <td>{ziel_str}</td>
           <td style="color:{upside_farbe};font-weight:bold">{upside_str}</td>
@@ -483,7 +508,8 @@ def main():
     for e in top:
         t = trends_scores.get(e["thema"], {}).get("score", 0)
         gesamt = min(100, e["gesamt_score"] + t)
-        print(f"  {e['ticker']:6s} {gesamt:3d}/100  [{e['signal_stufe']:7s}]  {e['thema']}")
+        stufe = "STARK" if gesamt >= 55 else ("MODERAT" if gesamt >= 30 else "SCHWACH")
+        print(f"  {e['ticker']:6s} {gesamt:3d}/100  [{stufe:7s}]  {e['thema']}")
 
     print()
 
