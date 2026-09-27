@@ -44,6 +44,8 @@ jobs:
           git config user.name  "Tailwind Scanner Bot"
           git config user.email "bot@tailwind-scanner"
           git add reports/
+          # Signale fuer das Trading-System (tailwind_connector liest data/latest_signals.json)
+          if [ -d data ]; then git add data/; fi
           git diff --cached --quiet || git commit -m "Report $(date +'%Y-%m-%d')"
           git pull --rebase
           git push

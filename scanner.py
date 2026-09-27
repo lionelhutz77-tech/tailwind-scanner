@@ -451,6 +451,11 @@ def speichere_json(alle_ergebnisse: list[dict], trends_scores: dict):
 
     json_pfad = DATA_DIR / "latest_signals.json"
     json_pfad.write_text(json.dumps(ausgabe, ensure_ascii=False, indent=2), encoding="utf-8")
+    # Datierte Kopie = Historie: spaeter pruefbar, welche Signale vor welcher
+    # Kursbewegung standen (Lernsystem Stufe 3 im Trading-System).
+    historie = DATA_DIR / "history"
+    historie.mkdir(exist_ok=True)
+    (historie / f"signals_{heute}.json").write_text(json.dumps(ausgabe, ensure_ascii=False), encoding="utf-8")
     print(f"✓ JSON gespeichert: {json_pfad}")
     return json_pfad
 
