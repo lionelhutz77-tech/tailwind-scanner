@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scan_datum": "2026-09-27",
-    "scan_uhrzeit": "17:51:44",
+    "scan_datum": "2026-09-28",
+    "scan_uhrzeit": "12:45:20",
     "total_signale": 79,
     "stark_count": 3,
     "moderat_count": 40,
@@ -352,7 +352,7 @@
         "trends": 0
       },
       "details": {
-        "news_treffer": 6,
+        "news_treffer": 7,
         "revisions": {
           "bull_analysten": 6,
           "vorher_bull_analysten": 6,
@@ -388,7 +388,7 @@
         "trends": 0
       },
       "details": {
-        "news_treffer": 6,
+        "news_treffer": 7,
         "revisions": {
           "bull_analysten": 9,
           "vorher_bull_analysten": 11,
@@ -414,8 +414,8 @@
         "hoch_52w": 1255.0,
         "tief_52w": 159.97,
         "abstand_ath_prozent": 13.8,
-        "ziel_kurs": 1515.54,
-        "upside_pct": 40.0
+        "ziel_kurs": 1520.76,
+        "upside_pct": 40.5
       },
       "scores": {
         "news": 30,
@@ -424,7 +424,7 @@
         "trends": 0
       },
       "details": {
-        "news_treffer": 15,
+        "news_treffer": 9,
         "revisions": {
           "bull_analysten": 45,
           "vorher_bull_analysten": 44,
@@ -436,42 +436,6 @@
           "call_put_ratio": 1.76,
           "call_vol": 104897,
           "put_vol": 59646,
-          "quality": "ausreichend"
-        }
-      }
-    },
-    {
-      "ticker": "ETN",
-      "thema": "AI Power / Energy",
-      "gesamt_score": 45,
-      "signal_stufe": "MODERAT",
-      "kurs_info": {
-        "kurs": 439.98,
-        "hoch_52w": 478.0,
-        "tief_52w": 311.92,
-        "abstand_ath_prozent": 8.0,
-        "ziel_kurs": 480.47,
-        "upside_pct": 9.2
-      },
-      "scores": {
-        "news": 15,
-        "revisions": 10,
-        "options": 20,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 3,
-        "revisions": {
-          "bull_analysten": 24,
-          "vorher_bull_analysten": 22,
-          "delta_bull_analysten": 2,
-          "davon_strong_buy": 5,
-          "trend": "steigend"
-        },
-        "options": {
-          "call_put_ratio": 3.42,
-          "call_vol": 637,
-          "put_vol": 186,
           "quality": "ausreichend"
         }
       }
@@ -657,37 +621,37 @@
       }
     },
     {
-      "ticker": "LRCX",
-      "thema": "AI Memory / HBM",
+      "ticker": "ETN",
+      "thema": "AI Power / Energy",
       "gesamt_score": 40,
       "signal_stufe": "MODERAT",
       "kurs_info": {
-        "kurs": 315.21,
-        "hoch_52w": 438.5,
-        "tief_52w": 130.81,
-        "abstand_ath_prozent": 28.1,
-        "ziel_kurs": 373.77,
-        "upside_pct": 18.6
+        "kurs": 439.98,
+        "hoch_52w": 478.0,
+        "tief_52w": 311.92,
+        "abstand_ath_prozent": 8.0,
+        "ziel_kurs": 480.47,
+        "upside_pct": 9.2
       },
       "scores": {
-        "news": 5,
-        "revisions": 20,
-        "options": 15,
+        "news": 10,
+        "revisions": 10,
+        "options": 20,
         "trends": 0
       },
       "details": {
-        "news_treffer": 1,
+        "news_treffer": 2,
         "revisions": {
-          "bull_analysten": 29,
-          "vorher_bull_analysten": 2,
-          "delta_bull_analysten": 27,
-          "davon_strong_buy": 4,
+          "bull_analysten": 24,
+          "vorher_bull_analysten": 22,
+          "delta_bull_analysten": 2,
+          "davon_strong_buy": 5,
           "trend": "steigend"
         },
         "options": {
-          "call_put_ratio": 2.93,
-          "call_vol": 12239,
-          "put_vol": 4177,
+          "call_put_ratio": 3.42,
+          "call_vol": 637,
+          "put_vol": 186,
           "quality": "ausreichend"
         }
       }
@@ -814,7 +778,7 @@
         "trends": 0
       },
       "details": {
-        "news_treffer": 16,
+        "news_treffer": 15,
         "revisions": {
           "bull_analysten": 6,
           "vorher_bull_analysten": 6,
@@ -886,7 +850,7 @@
         "trends": 0
       },
       "details": {
-        "news_treffer": 16,
+        "news_treffer": 17,
         "revisions": {
           "bull_analysten": 5,
           "vorher_bull_analysten": 4,
@@ -922,7 +886,7 @@
         "trends": 0
       },
       "details": {
-        "news_treffer": 11,
+        "news_treffer": 10,
         "revisions": {
           "bull_analysten": 21,
           "vorher_bull_analysten": 21,
@@ -934,6 +898,42 @@
           "call_put_ratio": 1.49,
           "call_vol": 3944,
           "put_vol": 2653,
+          "quality": "ausreichend"
+        }
+      }
+    },
+    {
+      "ticker": "LRCX",
+      "thema": "AI Memory / HBM",
+      "gesamt_score": 35,
+      "signal_stufe": "MODERAT",
+      "kurs_info": {
+        "kurs": 315.21,
+        "hoch_52w": 438.5,
+        "tief_52w": 130.81,
+        "abstand_ath_prozent": 28.1,
+        "ziel_kurs": 373.77,
+        "upside_pct": 18.6
+      },
+      "scores": {
+        "news": 0,
+        "revisions": 20,
+        "options": 15,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 0,
+        "revisions": {
+          "bull_analysten": 29,
+          "vorher_bull_analysten": 2,
+          "delta_bull_analysten": 27,
+          "davon_strong_buy": 4,
+          "trend": "steigend"
+        },
+        "options": {
+          "call_put_ratio": 2.93,
+          "call_vol": 12239,
+          "put_vol": 4177,
           "quality": "ausreichend"
         }
       }
@@ -984,8 +984,8 @@
         "hoch_52w": 1999.96,
         "tief_52w": 935.41,
         "abstand_ath_prozent": 12.8,
-        "ziel_kurs": 2123.54,
-        "upside_pct": 21.8
+        "ziel_kurs": 2118.47,
+        "upside_pct": 21.5
       },
       "scores": {
         "news": 30,
@@ -994,7 +994,7 @@
         "trends": 0
       },
       "details": {
-        "news_treffer": 9,
+        "news_treffer": 10,
         "revisions": {
           "bull_analysten": 38,
           "vorher_bull_analysten": 38,
@@ -1030,7 +1030,7 @@
         "trends": 0
       },
       "details": {
-        "news_treffer": 15,
+        "news_treffer": 14,
         "revisions": {
           "bull_analysten": 15,
           "vorher_bull_analysten": 15,
@@ -1380,8 +1380,8 @@
         "hoch_52w": 135.24,
         "tief_52w": 77.7,
         "abstand_ath_prozent": 34.9,
-        "ziel_kurs": 127.7,
-        "upside_pct": 45.0
+        "ziel_kurs": 127.51,
+        "upside_pct": 44.8
       },
       "scores": {
         "news": 30,
@@ -1390,7 +1390,7 @@
         "trends": 0
       },
       "details": {
-        "news_treffer": 13,
+        "news_treffer": 15,
         "revisions": {
           "bull_analysten": 19,
           "vorher_bull_analysten": 20,
@@ -1498,7 +1498,7 @@
         "trends": 0
       },
       "details": {
-        "news_treffer": 14,
+        "news_treffer": 16,
         "revisions": {
           "bull_analysten": 40,
           "vorher_bull_analysten": 40,
@@ -1534,7 +1534,7 @@
         "trends": 0
       },
       "details": {
-        "news_treffer": 14,
+        "news_treffer": 15,
         "revisions": {
           "bull_analysten": 42,
           "vorher_bull_analysten": 44,
@@ -1596,8 +1596,8 @@
         "hoch_52w": 739.67,
         "tief_52w": 202.87,
         "abstand_ath_prozent": 34.4,
-        "ziel_kurs": 640.89,
-        "upside_pct": 32.1
+        "ziel_kurs": 638.63,
+        "upside_pct": 31.7
       },
       "scores": {
         "news": 15,
@@ -1726,42 +1726,6 @@
           "call_put_ratio": 15.46,
           "call_vol": 943,
           "put_vol": 61,
-          "quality": "ausreichend"
-        }
-      }
-    },
-    {
-      "ticker": "AMGN",
-      "thema": "Biotech / GLP-1 / Obesity",
-      "gesamt_score": 20,
-      "signal_stufe": "SCHWACH",
-      "kurs_info": {
-        "kurs": 414.61,
-        "hoch_52w": 447.03,
-        "tief_52w": 270.67,
-        "abstand_ath_prozent": 7.3,
-        "ziel_kurs": 389.22,
-        "upside_pct": -6.1
-      },
-      "scores": {
-        "news": 15,
-        "revisions": 0,
-        "options": 5,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 3,
-        "revisions": {
-          "bull_analysten": 12,
-          "vorher_bull_analysten": 14,
-          "delta_bull_analysten": -2,
-          "davon_strong_buy": 4,
-          "trend": "fallend"
-        },
-        "options": {
-          "call_put_ratio": 1.34,
-          "call_vol": 1038,
-          "put_vol": 775,
           "quality": "ausreichend"
         }
       }
@@ -2014,6 +1978,42 @@
           "call_put_ratio": 1.94,
           "call_vol": 227952,
           "put_vol": 117740,
+          "quality": "ausreichend"
+        }
+      }
+    },
+    {
+      "ticker": "AMGN",
+      "thema": "Biotech / GLP-1 / Obesity",
+      "gesamt_score": 15,
+      "signal_stufe": "SCHWACH",
+      "kurs_info": {
+        "kurs": 414.61,
+        "hoch_52w": 447.03,
+        "tief_52w": 270.67,
+        "abstand_ath_prozent": 7.3,
+        "ziel_kurs": 389.22,
+        "upside_pct": -6.1
+      },
+      "scores": {
+        "news": 10,
+        "revisions": 0,
+        "options": 5,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 2,
+        "revisions": {
+          "bull_analysten": 12,
+          "vorher_bull_analysten": 14,
+          "delta_bull_analysten": -2,
+          "davon_strong_buy": 4,
+          "trend": "fallend"
+        },
+        "options": {
+          "call_put_ratio": 1.34,
+          "call_vol": 1038,
+          "put_vol": 775,
           "quality": "ausreichend"
         }
       }
@@ -2280,8 +2280,8 @@
         "hoch_52w": 739.67,
         "tief_52w": 202.87,
         "abstand_ath_prozent": 34.4,
-        "ziel_kurs": 640.89,
-        "upside_pct": 32.1
+        "ziel_kurs": 638.63,
+        "upside_pct": 31.7
       },
       "scores": {
         "news": 0,
@@ -2806,59 +2806,59 @@
   "themes": {
     "AI Memory / HBM": {
       "trends_score": 0,
-      "wachstum_prozent": -89.9
+      "wachstum_prozent": -91.4
     },
     "AI Power / Energy": {
       "trends_score": 0,
-      "wachstum_prozent": -77.7
+      "wachstum_prozent": -81.2
     },
     "AI Cooling / Infrastructure": {
       "trends_score": 0,
-      "wachstum_prozent": -59.5
+      "wachstum_prozent": -68.2
     },
     "AI Networking": {
       "trends_score": 0,
-      "wachstum_prozent": -70.5
+      "wachstum_prozent": -74.6
     },
     "AI Hardware / Semiconductors": {
       "trends_score": 0,
-      "wachstum_prozent": -73.7
+      "wachstum_prozent": -79.4
     },
     "Robotik / Humanoid": {
       "trends_score": 0,
-      "wachstum_prozent": -35.5
+      "wachstum_prozent": -36.7
     },
     "Defense Tech / Drohnen": {
       "trends_score": 0,
-      "wachstum_prozent": -60.0
+      "wachstum_prozent": -58.9
     },
     "Quantencomputing": {
       "trends_score": 0,
-      "wachstum_prozent": -71.0
+      "wachstum_prozent": -72.4
     },
     "Nuklearenergie / SMR": {
       "trends_score": 0,
-      "wachstum_prozent": -39.7
+      "wachstum_prozent": -41.2
     },
     "Autonomes Fahren": {
       "trends_score": 0,
-      "wachstum_prozent": -51.2
+      "wachstum_prozent": -56.2
     },
     "Biotech / GLP-1 / Obesity": {
       "trends_score": 0,
-      "wachstum_prozent": -10.8
+      "wachstum_prozent": -8.7
     },
     "Grid / Batteriespeicher": {
       "trends_score": 0,
-      "wachstum_prozent": 2.5
+      "wachstum_prozent": -8.1
     },
     "Raumfahrt / Space Tech": {
       "trends_score": 0,
-      "wachstum_prozent": -25.4
+      "wachstum_prozent": -34.2
     },
     "Cybersecurity / KI-Sicherheit": {
       "trends_score": 0,
-      "wachstum_prozent": -56.8
+      "wachstum_prozent": -62.3
     }
   }
 }
