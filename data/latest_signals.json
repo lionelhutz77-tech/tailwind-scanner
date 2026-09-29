@@ -1,70 +1,34 @@
 {
   "meta": {
-    "scan_datum": "2026-09-28",
-    "scan_uhrzeit": "12:45:20",
+    "scan_datum": "2026-09-29",
+    "scan_uhrzeit": "12:01:59",
     "total_signale": 79,
-    "stark_count": 3,
-    "moderat_count": 40,
-    "top_ticker": "LRCX"
+    "stark_count": 1,
+    "moderat_count": 37,
+    "top_ticker": "RKLB"
   },
   "signals": [
     {
-      "ticker": "LRCX",
-      "thema": "AI Hardware / Semiconductors",
-      "gesamt_score": 55,
-      "signal_stufe": "STARK",
-      "kurs_info": {
-        "kurs": 315.21,
-        "hoch_52w": 438.5,
-        "tief_52w": 130.81,
-        "abstand_ath_prozent": 28.1,
-        "ziel_kurs": 373.77,
-        "upside_pct": 18.6
-      },
-      "scores": {
-        "news": 20,
-        "revisions": 20,
-        "options": 15,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 4,
-        "revisions": {
-          "bull_analysten": 29,
-          "vorher_bull_analysten": 2,
-          "delta_bull_analysten": 27,
-          "davon_strong_buy": 4,
-          "trend": "steigend"
-        },
-        "options": {
-          "call_put_ratio": 2.93,
-          "call_vol": 12239,
-          "put_vol": 4177,
-          "quality": "ausreichend"
-        }
-      }
-    },
-    {
       "ticker": "RKLB",
       "thema": "Raumfahrt / Space Tech",
-      "gesamt_score": 55,
+      "gesamt_score": 60,
       "signal_stufe": "STARK",
       "kurs_info": {
-        "kurs": 73.95,
+        "kurs": 72.19,
         "hoch_52w": 151.0,
         "tief_52w": 37.57,
-        "abstand_ath_prozent": 51.0,
+        "abstand_ath_prozent": 52.2,
         "ziel_kurs": 109.37,
-        "upside_pct": 47.9
+        "upside_pct": 51.5
       },
       "scores": {
         "news": 30,
         "revisions": 10,
-        "options": 15,
+        "options": 20,
         "trends": 0
       },
       "details": {
-        "news_treffer": 13,
+        "news_treffer": 15,
         "revisions": {
           "bull_analysten": 16,
           "vorher_bull_analysten": 14,
@@ -73,61 +37,61 @@
           "trend": "steigend"
         },
         "options": {
-          "call_put_ratio": 2.89,
-          "call_vol": 18561,
-          "put_vol": 6431,
+          "call_put_ratio": 3.82,
+          "call_vol": 28510,
+          "put_vol": 7458,
           "quality": "ausreichend"
         }
       }
     },
     {
-      "ticker": "LUNR",
-      "thema": "Raumfahrt / Space Tech",
-      "gesamt_score": 55,
-      "signal_stufe": "STARK",
-      "kurs_info": {
-        "kurs": 15.61,
-        "hoch_52w": 46.75,
-        "tief_52w": 7.78,
-        "abstand_ath_prozent": 66.6,
-        "ziel_kurs": 29.5,
-        "upside_pct": 89.0
-      },
-      "scores": {
-        "news": 30,
-        "revisions": 5,
-        "options": 20,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 11,
-        "revisions": {
-          "bull_analysten": 8,
-          "vorher_bull_analysten": 7,
-          "delta_bull_analysten": 1,
-          "davon_strong_buy": 0,
-          "trend": "steigend"
-        },
-        "options": {
-          "call_put_ratio": 3.24,
-          "call_vol": 5130,
-          "put_vol": 1583,
-          "quality": "ausreichend"
-        }
-      }
-    },
-    {
-      "ticker": "RGTI",
+      "ticker": "IONQ",
       "thema": "Quantencomputing",
       "gesamt_score": 50,
       "signal_stufe": "MODERAT",
       "kurs_info": {
-        "kurs": 16.66,
-        "hoch_52w": 58.15,
-        "tief_52w": 12.53,
-        "abstand_ath_prozent": 71.3,
-        "ziel_kurs": 28.52,
-        "upside_pct": 71.2
+        "kurs": 44.58,
+        "hoch_52w": 84.64,
+        "tief_52w": 25.89,
+        "abstand_ath_prozent": 47.3,
+        "ziel_kurs": 66.63,
+        "upside_pct": 49.5
+      },
+      "scores": {
+        "news": 30,
+        "revisions": 5,
+        "options": 15,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 17,
+        "revisions": {
+          "bull_analysten": 12,
+          "vorher_bull_analysten": 11,
+          "delta_bull_analysten": 1,
+          "davon_strong_buy": 1,
+          "trend": "steigend"
+        },
+        "options": {
+          "call_put_ratio": 2.46,
+          "call_vol": 26591,
+          "put_vol": 10794,
+          "quality": "ausreichend"
+        }
+      }
+    },
+    {
+      "ticker": "QUBT",
+      "thema": "Quantencomputing",
+      "gesamt_score": 50,
+      "signal_stufe": "MODERAT",
+      "kurs_info": {
+        "kurs": 8.57,
+        "hoch_52w": 25.84,
+        "tief_52w": 6.18,
+        "abstand_ath_prozent": 66.8,
+        "ziel_kurs": 18.67,
+        "upside_pct": 117.9
       },
       "scores": {
         "news": 30,
@@ -136,18 +100,18 @@
         "trends": 0
       },
       "details": {
-        "news_treffer": 18,
+        "news_treffer": 17,
         "revisions": {
-          "bull_analysten": 9,
-          "vorher_bull_analysten": 9,
+          "bull_analysten": 4,
+          "vorher_bull_analysten": 4,
           "delta_bull_analysten": 0,
-          "davon_strong_buy": 1,
+          "davon_strong_buy": 0,
           "trend": "stabil"
         },
         "options": {
-          "call_put_ratio": 3.26,
-          "call_vol": 11458,
-          "put_vol": 3514,
+          "call_put_ratio": 3.73,
+          "call_vol": 4372,
+          "put_vol": 1173,
           "quality": "ausreichend"
         }
       }
@@ -194,12 +158,12 @@
       "gesamt_score": 50,
       "signal_stufe": "MODERAT",
       "kurs_info": {
-        "kurs": 7.85,
+        "kurs": 7.5,
         "hoch_52w": 33.51,
         "tief_52w": 7.01,
-        "abstand_ath_prozent": 76.6,
+        "abstand_ath_prozent": 77.6,
         "ziel_kurs": 10.11,
-        "upside_pct": 28.8
+        "upside_pct": 34.8
       },
       "scores": {
         "news": 30,
@@ -217,9 +181,9 @@
           "trend": "fallend"
         },
         "options": {
-          "call_put_ratio": 3.41,
-          "call_vol": 1777,
-          "put_vol": 521,
+          "call_put_ratio": 3.07,
+          "call_vol": 595,
+          "put_vol": 194,
           "quality": "ausreichend"
         }
       }
@@ -230,12 +194,12 @@
       "gesamt_score": 50,
       "signal_stufe": "MODERAT",
       "kurs_info": {
-        "kurs": 1.98,
+        "kurs": 1.86,
         "hoch_52w": 4.58,
         "tief_52w": 1.7,
-        "abstand_ath_prozent": 56.8,
+        "abstand_ath_prozent": 59.4,
         "ziel_kurs": 3.55,
-        "upside_pct": 79.3
+        "upside_pct": 90.9
       },
       "scores": {
         "news": 30,
@@ -244,7 +208,7 @@
         "trends": 0
       },
       "details": {
-        "news_treffer": 10,
+        "news_treffer": 11,
         "revisions": {
           "bull_analysten": 5,
           "vorher_bull_analysten": 5,
@@ -253,25 +217,25 @@
           "trend": "stabil"
         },
         "options": {
-          "call_put_ratio": 4.12,
-          "call_vol": 2987,
-          "put_vol": 725,
+          "call_put_ratio": 6.48,
+          "call_vol": 4681,
+          "put_vol": 722,
           "quality": "ausreichend"
         }
       }
     },
     {
-      "ticker": "FCEL",
-      "thema": "Grid / Batteriespeicher",
+      "ticker": "ASTS",
+      "thema": "Raumfahrt / Space Tech",
       "gesamt_score": 50,
       "signal_stufe": "MODERAT",
       "kurs_info": {
-        "kurs": 16.49,
-        "hoch_52w": 37.88,
-        "tief_52w": 5.71,
-        "abstand_ath_prozent": 56.5,
-        "ziel_kurs": 20.3,
-        "upside_pct": 23.1
+        "kurs": 61.0,
+        "hoch_52w": 133.86,
+        "tief_52w": 47.5,
+        "abstand_ath_prozent": 54.4,
+        "ziel_kurs": 79.61,
+        "upside_pct": 30.5
       },
       "scores": {
         "news": 30,
@@ -280,18 +244,18 @@
         "trends": 0
       },
       "details": {
-        "news_treffer": 11,
+        "news_treffer": 15,
         "revisions": {
           "bull_analysten": 5,
           "vorher_bull_analysten": 4,
           "delta_bull_analysten": 1,
-          "davon_strong_buy": 0,
+          "davon_strong_buy": 1,
           "trend": "steigend"
         },
         "options": {
-          "call_put_ratio": 2.01,
-          "call_vol": 1237,
-          "put_vol": 614,
+          "call_put_ratio": 2.29,
+          "call_vol": 21064,
+          "put_vol": 9200,
           "quality": "ausreichend"
         }
       }
@@ -302,12 +266,12 @@
       "gesamt_score": 50,
       "signal_stufe": "MODERAT",
       "kurs_info": {
-        "kurs": 17.43,
+        "kurs": 16.77,
         "hoch_52w": 51.76,
         "tief_52w": 10.52,
-        "abstand_ath_prozent": 66.3,
+        "abstand_ath_prozent": 67.6,
         "ziel_kurs": 33.4,
-        "upside_pct": 91.6
+        "upside_pct": 99.2
       },
       "scores": {
         "news": 30,
@@ -325,9 +289,117 @@
           "trend": "stabil"
         },
         "options": {
-          "call_put_ratio": 7.22,
-          "call_vol": 6112,
-          "put_vol": 846,
+          "call_put_ratio": 3.77,
+          "call_vol": 3858,
+          "put_vol": 1022,
+          "quality": "ausreichend"
+        }
+      }
+    },
+    {
+      "ticker": "LRCX",
+      "thema": "AI Hardware / Semiconductors",
+      "gesamt_score": 45,
+      "signal_stufe": "MODERAT",
+      "kurs_info": {
+        "kurs": 314.47,
+        "hoch_52w": 438.5,
+        "tief_52w": 130.81,
+        "abstand_ath_prozent": 28.3,
+        "ziel_kurs": 373.77,
+        "upside_pct": 18.9
+      },
+      "scores": {
+        "news": 20,
+        "revisions": 20,
+        "options": 5,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 4,
+        "revisions": {
+          "bull_analysten": 29,
+          "vorher_bull_analysten": 2,
+          "delta_bull_analysten": 27,
+          "davon_strong_buy": 4,
+          "trend": "steigend"
+        },
+        "options": {
+          "call_put_ratio": 1.2,
+          "call_vol": 4017,
+          "put_vol": 3345,
+          "quality": "ausreichend"
+        }
+      }
+    },
+    {
+      "ticker": "RGTI",
+      "thema": "Quantencomputing",
+      "gesamt_score": 45,
+      "signal_stufe": "MODERAT",
+      "kurs_info": {
+        "kurs": 15.95,
+        "hoch_52w": 58.15,
+        "tief_52w": 12.53,
+        "abstand_ath_prozent": 72.6,
+        "ziel_kurs": 28.52,
+        "upside_pct": 78.8
+      },
+      "scores": {
+        "news": 30,
+        "revisions": 0,
+        "options": 15,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 19,
+        "revisions": {
+          "bull_analysten": 9,
+          "vorher_bull_analysten": 9,
+          "delta_bull_analysten": 0,
+          "davon_strong_buy": 1,
+          "trend": "stabil"
+        },
+        "options": {
+          "call_put_ratio": 2.4,
+          "call_vol": 17984,
+          "put_vol": 7480,
+          "quality": "ausreichend"
+        }
+      }
+    },
+    {
+      "ticker": "UEC",
+      "thema": "Nuklearenergie / SMR",
+      "gesamt_score": 45,
+      "signal_stufe": "MODERAT",
+      "kurs_info": {
+        "kurs": 9.21,
+        "hoch_52w": 20.34,
+        "tief_52w": 8.91,
+        "abstand_ath_prozent": 54.7,
+        "ziel_kurs": 17.27,
+        "upside_pct": 87.5
+      },
+      "scores": {
+        "news": 30,
+        "revisions": 0,
+        "options": 15,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 16,
+        "revisions": {
+          "bull_analysten": 8,
+          "vorher_bull_analysten": 8,
+          "delta_bull_analysten": 0,
+          "davon_strong_buy": 2,
+          "trend": "stabil"
+        },
+        "options": {
+          "call_put_ratio": 2.44,
+          "call_vol": 5975,
+          "put_vol": 2448,
           "quality": "ausreichend"
         }
       }
@@ -335,24 +407,24 @@
     {
       "ticker": "RDW",
       "thema": "Raumfahrt / Space Tech",
-      "gesamt_score": 50,
+      "gesamt_score": 45,
       "signal_stufe": "MODERAT",
       "kurs_info": {
-        "kurs": 11.62,
+        "kurs": 11.2,
         "hoch_52w": 26.64,
         "tief_52w": 4.87,
-        "abstand_ath_prozent": 56.4,
+        "abstand_ath_prozent": 58.0,
         "ziel_kurs": 14.69,
-        "upside_pct": 26.4
+        "upside_pct": 31.2
       },
       "scores": {
         "news": 30,
         "revisions": 0,
-        "options": 20,
+        "options": 15,
         "trends": 0
       },
       "details": {
-        "news_treffer": 7,
+        "news_treffer": 8,
         "revisions": {
           "bull_analysten": 6,
           "vorher_bull_analysten": 6,
@@ -361,45 +433,45 @@
           "trend": "stabil"
         },
         "options": {
-          "call_put_ratio": 3.7,
-          "call_vol": 3399,
-          "put_vol": 919,
+          "call_put_ratio": 2.31,
+          "call_vol": 3398,
+          "put_vol": 1474,
           "quality": "ausreichend"
         }
       }
     },
     {
-      "ticker": "FTNT",
+      "ticker": "ZS",
       "thema": "Cybersecurity / KI-Sicherheit",
-      "gesamt_score": 50,
+      "gesamt_score": 45,
       "signal_stufe": "MODERAT",
       "kurs_info": {
-        "kurs": 173.46,
-        "hoch_52w": 181.37,
-        "tief_52w": 73.55,
-        "abstand_ath_prozent": 4.4,
-        "ziel_kurs": 164.32,
-        "upside_pct": -5.3
+        "kurs": 199.39,
+        "hoch_52w": 336.99,
+        "tief_52w": 114.62,
+        "abstand_ath_prozent": 40.8,
+        "ziel_kurs": 209.68,
+        "upside_pct": 5.2
       },
       "scores": {
         "news": 30,
         "revisions": 0,
-        "options": 20,
+        "options": 15,
         "trends": 0
       },
       "details": {
-        "news_treffer": 7,
+        "news_treffer": 8,
         "revisions": {
-          "bull_analysten": 9,
-          "vorher_bull_analysten": 11,
-          "delta_bull_analysten": -2,
-          "davon_strong_buy": 1,
+          "bull_analysten": 36,
+          "vorher_bull_analysten": 37,
+          "delta_bull_analysten": -1,
+          "davon_strong_buy": 7,
           "trend": "fallend"
         },
         "options": {
-          "call_put_ratio": 5.38,
-          "call_vol": 1991,
-          "put_vol": 370,
+          "call_put_ratio": 2.17,
+          "call_vol": 5611,
+          "put_vol": 2590,
           "quality": "ausreichend"
         }
       }
@@ -407,24 +479,24 @@
     {
       "ticker": "MU",
       "thema": "AI Memory / HBM",
-      "gesamt_score": 45,
+      "gesamt_score": 40,
       "signal_stufe": "MODERAT",
       "kurs_info": {
-        "kurs": 1082.28,
+        "kurs": 1053.98,
         "hoch_52w": 1255.0,
-        "tief_52w": 159.97,
-        "abstand_ath_prozent": 13.8,
+        "tief_52w": 163.96,
+        "abstand_ath_prozent": 16.0,
         "ziel_kurs": 1520.76,
-        "upside_pct": 40.5
+        "upside_pct": 44.3
       },
       "scores": {
         "news": 30,
         "revisions": 5,
-        "options": 10,
+        "options": 5,
         "trends": 0
       },
       "details": {
-        "news_treffer": 9,
+        "news_treffer": 10,
         "revisions": {
           "bull_analysten": 45,
           "vorher_bull_analysten": 44,
@@ -433,45 +505,45 @@
           "trend": "steigend"
         },
         "options": {
-          "call_put_ratio": 1.76,
-          "call_vol": 104897,
-          "put_vol": 59646,
+          "call_put_ratio": 1.3,
+          "call_vol": 100786,
+          "put_vol": 77305,
           "quality": "ausreichend"
         }
       }
     },
     {
-      "ticker": "IONQ",
-      "thema": "Quantencomputing",
-      "gesamt_score": 45,
+      "ticker": "CIEN",
+      "thema": "AI Networking",
+      "gesamt_score": 40,
       "signal_stufe": "MODERAT",
       "kurs_info": {
-        "kurs": 45.48,
-        "hoch_52w": 84.64,
-        "tief_52w": 25.89,
-        "abstand_ath_prozent": 46.3,
-        "ziel_kurs": 67.14,
-        "upside_pct": 47.6
+        "kurs": 344.19,
+        "hoch_52w": 637.51,
+        "tief_52w": 143.19,
+        "abstand_ath_prozent": 46.0,
+        "ziel_kurs": 516.83,
+        "upside_pct": 50.2
       },
       "scores": {
-        "news": 30,
-        "revisions": 0,
+        "news": 20,
+        "revisions": 5,
         "options": 15,
         "trends": 0
       },
       "details": {
-        "news_treffer": 17,
+        "news_treffer": 4,
         "revisions": {
-          "bull_analysten": 11,
-          "vorher_bull_analysten": 11,
-          "delta_bull_analysten": 0,
-          "davon_strong_buy": 1,
-          "trend": "stabil"
+          "bull_analysten": 15,
+          "vorher_bull_analysten": 14,
+          "delta_bull_analysten": 1,
+          "davon_strong_buy": 5,
+          "trend": "steigend"
         },
         "options": {
-          "call_put_ratio": 2.62,
-          "call_vol": 20070,
-          "put_vol": 7672,
+          "call_put_ratio": 2.67,
+          "call_vol": 4109,
+          "put_vol": 1541,
           "quality": "ausreichend"
         }
       }
@@ -479,20 +551,20 @@
     {
       "ticker": "QBTS",
       "thema": "Quantencomputing",
-      "gesamt_score": 45,
+      "gesamt_score": 40,
       "signal_stufe": "MODERAT",
       "kurs_info": {
-        "kurs": 17.41,
+        "kurs": 16.78,
         "hoch_52w": 46.75,
         "tief_52w": 12.75,
-        "abstand_ath_prozent": 62.8,
+        "abstand_ath_prozent": 64.1,
         "ziel_kurs": 34.65,
-        "upside_pct": 99.0
+        "upside_pct": 106.5
       },
       "scores": {
         "news": 30,
         "revisions": 0,
-        "options": 15,
+        "options": 10,
         "trends": 0
       },
       "details": {
@@ -505,255 +577,9 @@
           "trend": "fallend"
         },
         "options": {
-          "call_put_ratio": 2.32,
-          "call_vol": 6705,
-          "put_vol": 2894,
-          "quality": "ausreichend"
-        }
-      }
-    },
-    {
-      "ticker": "QUBT",
-      "thema": "Quantencomputing",
-      "gesamt_score": 45,
-      "signal_stufe": "MODERAT",
-      "kurs_info": {
-        "kurs": 8.96,
-        "hoch_52w": 25.84,
-        "tief_52w": 6.18,
-        "abstand_ath_prozent": 65.3,
-        "ziel_kurs": 18.67,
-        "upside_pct": 108.4
-      },
-      "scores": {
-        "news": 30,
-        "revisions": 0,
-        "options": 15,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 17,
-        "revisions": {
-          "bull_analysten": 4,
-          "vorher_bull_analysten": 4,
-          "delta_bull_analysten": 0,
-          "davon_strong_buy": 0,
-          "trend": "stabil"
-        },
-        "options": {
-          "call_put_ratio": 2.18,
-          "call_vol": 2288,
-          "put_vol": 1051,
-          "quality": "ausreichend"
-        }
-      }
-    },
-    {
-      "ticker": "OUST",
-      "thema": "Autonomes Fahren",
-      "gesamt_score": 45,
-      "signal_stufe": "MODERAT",
-      "kurs_info": {
-        "kurs": 43.72,
-        "hoch_52w": 63.79,
-        "tief_52w": 16.4,
-        "abstand_ath_prozent": 31.5,
-        "ziel_kurs": 59.4,
-        "upside_pct": 35.9
-      },
-      "scores": {
-        "news": 30,
-        "revisions": 0,
-        "options": 15,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 12,
-        "revisions": {
-          "bull_analysten": 5,
-          "vorher_bull_analysten": 6,
-          "delta_bull_analysten": -1,
-          "davon_strong_buy": 0,
-          "trend": "fallend"
-        },
-        "options": {
-          "call_put_ratio": 2.96,
-          "call_vol": 2246,
-          "put_vol": 760,
-          "quality": "ausreichend"
-        }
-      }
-    },
-    {
-      "ticker": "STEM",
-      "thema": "Grid / Batteriespeicher",
-      "gesamt_score": 45,
-      "signal_stufe": "MODERAT",
-      "kurs_info": {
-        "kurs": 4.48,
-        "hoch_52w": 32.23,
-        "tief_52w": 3.7,
-        "abstand_ath_prozent": 86.1,
-        "ziel_kurs": 7.45,
-        "upside_pct": 66.3
-      },
-      "scores": {
-        "news": 20,
-        "revisions": 5,
-        "options": 20,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 4,
-        "revisions": {
-          "bull_analysten": 1,
-          "vorher_bull_analysten": 0,
-          "delta_bull_analysten": 1,
-          "davon_strong_buy": 0,
-          "trend": "steigend"
-        },
-        "options": {
-          "call_put_ratio": 4.72,
-          "call_vol": 170,
-          "put_vol": 36,
-          "quality": "ausreichend"
-        }
-      }
-    },
-    {
-      "ticker": "ETN",
-      "thema": "AI Power / Energy",
-      "gesamt_score": 40,
-      "signal_stufe": "MODERAT",
-      "kurs_info": {
-        "kurs": 439.98,
-        "hoch_52w": 478.0,
-        "tief_52w": 311.92,
-        "abstand_ath_prozent": 8.0,
-        "ziel_kurs": 480.47,
-        "upside_pct": 9.2
-      },
-      "scores": {
-        "news": 10,
-        "revisions": 10,
-        "options": 20,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 2,
-        "revisions": {
-          "bull_analysten": 24,
-          "vorher_bull_analysten": 22,
-          "delta_bull_analysten": 2,
-          "davon_strong_buy": 5,
-          "trend": "steigend"
-        },
-        "options": {
-          "call_put_ratio": 3.42,
-          "call_vol": 637,
-          "put_vol": 186,
-          "quality": "ausreichend"
-        }
-      }
-    },
-    {
-      "ticker": "ANET",
-      "thema": "AI Networking",
-      "gesamt_score": 40,
-      "signal_stufe": "MODERAT",
-      "kurs_info": {
-        "kurs": 206.55,
-        "hoch_52w": 214.89,
-        "tief_52w": 114.52,
-        "abstand_ath_prozent": 3.9,
-        "ziel_kurs": 241.93,
-        "upside_pct": 17.1
-      },
-      "scores": {
-        "news": 30,
-        "revisions": 0,
-        "options": 10,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 12,
-        "revisions": {
-          "bull_analysten": 30,
-          "vorher_bull_analysten": 31,
-          "delta_bull_analysten": -1,
-          "davon_strong_buy": 7,
-          "trend": "fallend"
-        },
-        "options": {
-          "call_put_ratio": 1.62,
-          "call_vol": 5471,
-          "put_vol": 3369,
-          "quality": "ausreichend"
-        }
-      }
-    },
-    {
-      "ticker": "ARQQ",
-      "thema": "Quantencomputing",
-      "gesamt_score": 40,
-      "signal_stufe": "MODERAT",
-      "kurs_info": {
-        "kurs": 24.6,
-        "hoch_52w": 62.0,
-        "tief_52w": 11.52,
-        "abstand_ath_prozent": 60.3,
-        "ziel_kurs": 0.0,
-        "upside_pct": null
-      },
-      "scores": {
-        "news": 20,
-        "revisions": 0,
-        "options": 20,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 4,
-        "revisions": {},
-        "options": {
-          "call_put_ratio": 7.81,
-          "call_vol": 203,
-          "put_vol": 26,
-          "quality": "ausreichend"
-        }
-      }
-    },
-    {
-      "ticker": "NNE",
-      "thema": "Nuklearenergie / SMR",
-      "gesamt_score": 40,
-      "signal_stufe": "MODERAT",
-      "kurs_info": {
-        "kurs": 16.99,
-        "hoch_52w": 60.87,
-        "tief_52w": 14.71,
-        "abstand_ath_prozent": 72.1,
-        "ziel_kurs": 37.57,
-        "upside_pct": 121.1
-      },
-      "scores": {
-        "news": 30,
-        "revisions": 5,
-        "options": 5,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 14,
-        "revisions": {
-          "bull_analysten": 6,
-          "vorher_bull_analysten": 5,
-          "delta_bull_analysten": 1,
-          "davon_strong_buy": 1,
-          "trend": "steigend"
-        },
-        "options": {
-          "call_put_ratio": 1.05,
-          "call_vol": 669,
-          "put_vol": 636,
+          "call_put_ratio": 1.78,
+          "call_vol": 10501,
+          "put_vol": 5901,
           "quality": "ausreichend"
         }
       }
@@ -764,12 +590,12 @@
       "gesamt_score": 40,
       "signal_stufe": "MODERAT",
       "kurs_info": {
-        "kurs": 8.42,
+        "kurs": 7.91,
         "hoch_52w": 57.42,
         "tief_52w": 7.21,
-        "abstand_ath_prozent": 85.3,
+        "abstand_ath_prozent": 86.2,
         "ziel_kurs": 11.97,
-        "upside_pct": 42.2
+        "upside_pct": 51.3
       },
       "scores": {
         "news": 30,
@@ -787,25 +613,25 @@
           "trend": "stabil"
         },
         "options": {
-          "call_put_ratio": 1.84,
-          "call_vol": 6329,
-          "put_vol": 3447,
+          "call_put_ratio": 1.68,
+          "call_vol": 8314,
+          "put_vol": 4961,
           "quality": "ausreichend"
         }
       }
     },
     {
-      "ticker": "UEC",
+      "ticker": "OKLO",
       "thema": "Nuklearenergie / SMR",
       "gesamt_score": 40,
       "signal_stufe": "MODERAT",
       "kurs_info": {
-        "kurs": 9.41,
-        "hoch_52w": 20.34,
-        "tief_52w": 8.91,
-        "abstand_ath_prozent": 53.7,
-        "ziel_kurs": 17.38,
-        "upside_pct": 84.7
+        "kurs": 37.11,
+        "hoch_52w": 193.84,
+        "tief_52w": 34.38,
+        "abstand_ath_prozent": 80.9,
+        "ziel_kurs": 76.42,
+        "upside_pct": 105.9
       },
       "scores": {
         "news": 30,
@@ -814,34 +640,34 @@
         "trends": 0
       },
       "details": {
-        "news_treffer": 17,
+        "news_treffer": 14,
         "revisions": {
-          "bull_analysten": 8,
-          "vorher_bull_analysten": 8,
+          "bull_analysten": 15,
+          "vorher_bull_analysten": 15,
           "delta_bull_analysten": 0,
-          "davon_strong_buy": 2,
+          "davon_strong_buy": 6,
           "trend": "stabil"
         },
         "options": {
-          "call_put_ratio": 1.69,
-          "call_vol": 7250,
-          "put_vol": 4285,
+          "call_put_ratio": 1.73,
+          "call_vol": 7385,
+          "put_vol": 4276,
           "quality": "ausreichend"
         }
       }
     },
     {
-      "ticker": "ASTS",
-      "thema": "Raumfahrt / Space Tech",
+      "ticker": "FCEL",
+      "thema": "Grid / Batteriespeicher",
       "gesamt_score": 40,
       "signal_stufe": "MODERAT",
       "kurs_info": {
-        "kurs": 61.81,
-        "hoch_52w": 133.86,
-        "tief_52w": 47.5,
-        "abstand_ath_prozent": 53.8,
-        "ziel_kurs": 79.61,
-        "upside_pct": 28.8
+        "kurs": 16.14,
+        "hoch_52w": 37.88,
+        "tief_52w": 5.71,
+        "abstand_ath_prozent": 57.4,
+        "ziel_kurs": 20.3,
+        "upside_pct": 25.8
       },
       "scores": {
         "news": 30,
@@ -850,18 +676,54 @@
         "trends": 0
       },
       "details": {
-        "news_treffer": 17,
+        "news_treffer": 11,
         "revisions": {
           "bull_analysten": 5,
           "vorher_bull_analysten": 4,
           "delta_bull_analysten": 1,
-          "davon_strong_buy": 1,
+          "davon_strong_buy": 0,
           "trend": "steigend"
         },
         "options": {
-          "call_put_ratio": 1.23,
-          "call_vol": 16853,
-          "put_vol": 13721,
+          "call_put_ratio": 1.47,
+          "call_vol": 1502,
+          "put_vol": 1021,
+          "quality": "ausreichend"
+        }
+      }
+    },
+    {
+      "ticker": "PANW",
+      "thema": "Cybersecurity / KI-Sicherheit",
+      "gesamt_score": 40,
+      "signal_stufe": "MODERAT",
+      "kurs_info": {
+        "kurs": 392.09,
+        "hoch_52w": 398.88,
+        "tief_52w": 139.57,
+        "abstand_ath_prozent": 1.7,
+        "ziel_kurs": 396.12,
+        "upside_pct": 1.0
+      },
+      "scores": {
+        "news": 30,
+        "revisions": 0,
+        "options": 10,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 15,
+        "revisions": {
+          "bull_analysten": 42,
+          "vorher_bull_analysten": 44,
+          "delta_bull_analysten": -2,
+          "davon_strong_buy": 10,
+          "trend": "fallend"
+        },
+        "options": {
+          "call_put_ratio": 1.75,
+          "call_vol": 15019,
+          "put_vol": 8582,
           "quality": "ausreichend"
         }
       }
@@ -872,12 +734,12 @@
       "gesamt_score": 35,
       "signal_stufe": "MODERAT",
       "kurs_info": {
-        "kurs": 456.81,
+        "kurs": 453.23,
         "hoch_52w": 799.87,
-        "tief_52w": 111.83,
-        "abstand_ath_prozent": 42.9,
+        "tief_52w": 112.52,
+        "abstand_ath_prozent": 43.3,
         "ziel_kurs": 664.92,
-        "upside_pct": 45.6
+        "upside_pct": 46.7
       },
       "scores": {
         "news": 30,
@@ -886,7 +748,7 @@
         "trends": 0
       },
       "details": {
-        "news_treffer": 10,
+        "news_treffer": 8,
         "revisions": {
           "bull_analysten": 21,
           "vorher_bull_analysten": 21,
@@ -895,81 +757,45 @@
           "trend": "stabil"
         },
         "options": {
-          "call_put_ratio": 1.49,
-          "call_vol": 3944,
-          "put_vol": 2653,
+          "call_put_ratio": 1.17,
+          "call_vol": 8009,
+          "put_vol": 6868,
           "quality": "ausreichend"
         }
       }
     },
     {
-      "ticker": "LRCX",
-      "thema": "AI Memory / HBM",
-      "gesamt_score": 35,
-      "signal_stufe": "MODERAT",
-      "kurs_info": {
-        "kurs": 315.21,
-        "hoch_52w": 438.5,
-        "tief_52w": 130.81,
-        "abstand_ath_prozent": 28.1,
-        "ziel_kurs": 373.77,
-        "upside_pct": 18.6
-      },
-      "scores": {
-        "news": 0,
-        "revisions": 20,
-        "options": 15,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 0,
-        "revisions": {
-          "bull_analysten": 29,
-          "vorher_bull_analysten": 2,
-          "delta_bull_analysten": 27,
-          "davon_strong_buy": 4,
-          "trend": "steigend"
-        },
-        "options": {
-          "call_put_ratio": 2.93,
-          "call_vol": 12239,
-          "put_vol": 4177,
-          "quality": "ausreichend"
-        }
-      }
-    },
-    {
-      "ticker": "CIEN",
+      "ticker": "ANET",
       "thema": "AI Networking",
       "gesamt_score": 35,
       "signal_stufe": "MODERAT",
       "kurs_info": {
-        "kurs": 356.91,
-        "hoch_52w": 637.51,
-        "tief_52w": 143.0,
-        "abstand_ath_prozent": 44.0,
-        "ziel_kurs": 516.83,
-        "upside_pct": 44.8
+        "kurs": 204.92,
+        "hoch_52w": 214.89,
+        "tief_52w": 114.52,
+        "abstand_ath_prozent": 4.6,
+        "ziel_kurs": 241.93,
+        "upside_pct": 18.1
       },
       "scores": {
-        "news": 25,
-        "revisions": 5,
+        "news": 30,
+        "revisions": 0,
         "options": 5,
         "trends": 0
       },
       "details": {
-        "news_treffer": 5,
+        "news_treffer": 13,
         "revisions": {
-          "bull_analysten": 15,
-          "vorher_bull_analysten": 14,
-          "delta_bull_analysten": 1,
-          "davon_strong_buy": 5,
-          "trend": "steigend"
+          "bull_analysten": 30,
+          "vorher_bull_analysten": 31,
+          "delta_bull_analysten": -1,
+          "davon_strong_buy": 7,
+          "trend": "fallend"
         },
         "options": {
-          "call_put_ratio": 1.12,
-          "call_vol": 1894,
-          "put_vol": 1688,
+          "call_put_ratio": 1.14,
+          "call_vol": 2373,
+          "put_vol": 2089,
           "quality": "ausreichend"
         }
       }
@@ -980,12 +806,12 @@
       "gesamt_score": 35,
       "signal_stufe": "MODERAT",
       "kurs_info": {
-        "kurs": 1743.94,
+        "kurs": 1771.41,
         "hoch_52w": 1999.96,
         "tief_52w": 935.41,
-        "abstand_ath_prozent": 12.8,
-        "ziel_kurs": 2118.47,
-        "upside_pct": 21.5
+        "abstand_ath_prozent": 11.4,
+        "ziel_kurs": 2114.86,
+        "upside_pct": 19.4
       },
       "scores": {
         "news": 30,
@@ -1003,25 +829,61 @@
           "trend": "stabil"
         },
         "options": {
-          "call_put_ratio": 1.07,
-          "call_vol": 3129,
-          "put_vol": 2915,
+          "call_put_ratio": 1.15,
+          "call_vol": 3217,
+          "put_vol": 2794,
           "quality": "ausreichend"
         }
       }
     },
     {
-      "ticker": "OKLO",
-      "thema": "Nuklearenergie / SMR",
+      "ticker": "TSM",
+      "thema": "AI Hardware / Semiconductors",
       "gesamt_score": 35,
       "signal_stufe": "MODERAT",
       "kurs_info": {
-        "kurs": 38.04,
-        "hoch_52w": 193.84,
-        "tief_52w": 34.38,
-        "abstand_ath_prozent": 80.4,
-        "ziel_kurs": 76.42,
-        "upside_pct": 100.9
+        "kurs": 452.88,
+        "hoch_52w": 479.0,
+        "tief_52w": 266.82,
+        "abstand_ath_prozent": 5.5,
+        "ziel_kurs": 552.26,
+        "upside_pct": 21.9
+      },
+      "scores": {
+        "news": 20,
+        "revisions": 10,
+        "options": 5,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 4,
+        "revisions": {
+          "bull_analysten": 20,
+          "vorher_bull_analysten": 18,
+          "delta_bull_analysten": 2,
+          "davon_strong_buy": 6,
+          "trend": "steigend"
+        },
+        "options": {
+          "call_put_ratio": 1.2,
+          "call_vol": 18436,
+          "put_vol": 15413,
+          "quality": "ausreichend"
+        }
+      }
+    },
+    {
+      "ticker": "KTOS",
+      "thema": "Defense Tech / Drohnen",
+      "gesamt_score": 35,
+      "signal_stufe": "MODERAT",
+      "kurs_info": {
+        "kurs": 44.07,
+        "hoch_52w": 134.0,
+        "tief_52w": 43.09,
+        "abstand_ath_prozent": 67.1,
+        "ziel_kurs": 102.76,
+        "upside_pct": 133.2
       },
       "scores": {
         "news": 30,
@@ -1030,18 +892,90 @@
         "trends": 0
       },
       "details": {
-        "news_treffer": 14,
+        "news_treffer": 13,
         "revisions": {
-          "bull_analysten": 15,
-          "vorher_bull_analysten": 15,
+          "bull_analysten": 19,
+          "vorher_bull_analysten": 19,
           "delta_bull_analysten": 0,
-          "davon_strong_buy": 6,
+          "davon_strong_buy": 4,
           "trend": "stabil"
         },
         "options": {
-          "call_put_ratio": 1.44,
-          "call_vol": 5045,
-          "put_vol": 3505,
+          "call_put_ratio": 1.12,
+          "call_vol": 1823,
+          "put_vol": 1629,
+          "quality": "ausreichend"
+        }
+      }
+    },
+    {
+      "ticker": "CCJ",
+      "thema": "Nuklearenergie / SMR",
+      "gesamt_score": 35,
+      "signal_stufe": "MODERAT",
+      "kurs_info": {
+        "kurs": 87.04,
+        "hoch_52w": 135.24,
+        "tief_52w": 77.7,
+        "abstand_ath_prozent": 35.6,
+        "ziel_kurs": 127.36,
+        "upside_pct": 46.3
+      },
+      "scores": {
+        "news": 30,
+        "revisions": 0,
+        "options": 5,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 15,
+        "revisions": {
+          "bull_analysten": 19,
+          "vorher_bull_analysten": 20,
+          "delta_bull_analysten": -1,
+          "davon_strong_buy": 8,
+          "trend": "fallend"
+        },
+        "options": {
+          "call_put_ratio": 1.04,
+          "call_vol": 1674,
+          "put_vol": 1617,
+          "quality": "ausreichend"
+        }
+      }
+    },
+    {
+      "ticker": "NNE",
+      "thema": "Nuklearenergie / SMR",
+      "gesamt_score": 35,
+      "signal_stufe": "MODERAT",
+      "kurs_info": {
+        "kurs": 16.16,
+        "hoch_52w": 60.87,
+        "tief_52w": 14.71,
+        "abstand_ath_prozent": 73.5,
+        "ziel_kurs": 37.57,
+        "upside_pct": 132.5
+      },
+      "scores": {
+        "news": 30,
+        "revisions": 5,
+        "options": 0,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 14,
+        "revisions": {
+          "bull_analysten": 6,
+          "vorher_bull_analysten": 5,
+          "delta_bull_analysten": 1,
+          "davon_strong_buy": 1,
+          "trend": "steigend"
+        },
+        "options": {
+          "call_put_ratio": 0.9,
+          "call_vol": 675,
+          "put_vol": 751,
           "quality": "ausreichend"
         }
       }
@@ -1052,12 +986,12 @@
       "gesamt_score": 35,
       "signal_stufe": "MODERAT",
       "kurs_info": {
-        "kurs": 147.07,
+        "kurs": 140.37,
         "hoch_52w": 464.25,
         "tief_52w": 135.85,
-        "abstand_ath_prozent": 68.3,
+        "abstand_ath_prozent": 69.8,
         "ziel_kurs": 247.4,
-        "upside_pct": 68.2
+        "upside_pct": 76.2
       },
       "scores": {
         "news": 30,
@@ -1075,45 +1009,45 @@
           "trend": "stabil"
         },
         "options": {
-          "call_put_ratio": 1.12,
-          "call_vol": 333,
-          "put_vol": 296,
+          "call_put_ratio": 1.48,
+          "call_vol": 483,
+          "put_vol": 326,
           "quality": "ausreichend"
         }
       }
     },
     {
-      "ticker": "VKTX",
-      "thema": "Biotech / GLP-1 / Obesity",
+      "ticker": "OUST",
+      "thema": "Autonomes Fahren",
       "gesamt_score": 35,
       "signal_stufe": "MODERAT",
       "kurs_info": {
-        "kurs": 35.56,
-        "hoch_52w": 43.15,
-        "tief_52w": 25.04,
-        "abstand_ath_prozent": 17.6,
-        "ziel_kurs": 94.82,
-        "upside_pct": 166.6
+        "kurs": 40.9,
+        "hoch_52w": 63.79,
+        "tief_52w": 16.4,
+        "abstand_ath_prozent": 35.9,
+        "ziel_kurs": 59.4,
+        "upside_pct": 45.2
       },
       "scores": {
-        "news": 20,
+        "news": 30,
         "revisions": 0,
-        "options": 15,
+        "options": 5,
         "trends": 0
       },
       "details": {
-        "news_treffer": 4,
+        "news_treffer": 12,
         "revisions": {
-          "bull_analysten": 18,
-          "vorher_bull_analysten": 18,
-          "delta_bull_analysten": 0,
-          "davon_strong_buy": 5,
-          "trend": "stabil"
+          "bull_analysten": 5,
+          "vorher_bull_analysten": 6,
+          "delta_bull_analysten": -1,
+          "davon_strong_buy": 0,
+          "trend": "fallend"
         },
         "options": {
-          "call_put_ratio": 2.3,
-          "call_vol": 5565,
-          "put_vol": 2421,
+          "call_put_ratio": 1.06,
+          "call_vol": 995,
+          "put_vol": 941,
           "quality": "ausreichend"
         }
       }
@@ -1124,12 +1058,12 @@
       "gesamt_score": 35,
       "signal_stufe": "MODERAT",
       "kurs_info": {
-        "kurs": 288.7,
+        "kurs": 262.87,
         "hoch_52w": 351.28,
         "tief_52w": 70.89,
-        "abstand_ath_prozent": 17.8,
+        "abstand_ath_prozent": 25.2,
         "ziel_kurs": 280.24,
-        "upside_pct": -2.9
+        "upside_pct": 6.6
       },
       "scores": {
         "news": 30,
@@ -1138,7 +1072,7 @@
         "trends": 0
       },
       "details": {
-        "news_treffer": 14,
+        "news_treffer": 15,
         "revisions": {
           "bull_analysten": 15,
           "vorher_bull_analysten": 15,
@@ -1147,117 +1081,117 @@
           "trend": "stabil"
         },
         "options": {
-          "call_put_ratio": 1.25,
-          "call_vol": 32530,
-          "put_vol": 26053,
+          "call_put_ratio": 1.35,
+          "call_vol": 36686,
+          "put_vol": 27093,
           "quality": "ausreichend"
         }
       }
     },
     {
-      "ticker": "ZS",
-      "thema": "Cybersecurity / KI-Sicherheit",
+      "ticker": "LUNR",
+      "thema": "Raumfahrt / Space Tech",
       "gesamt_score": 35,
       "signal_stufe": "MODERAT",
       "kurs_info": {
-        "kurs": 193.05,
-        "hoch_52w": 336.99,
-        "tief_52w": 114.62,
-        "abstand_ath_prozent": 42.7,
-        "ziel_kurs": 209.68,
-        "upside_pct": 8.6
+        "kurs": 15.2,
+        "hoch_52w": 46.75,
+        "tief_52w": 7.78,
+        "abstand_ath_prozent": 67.5,
+        "ziel_kurs": 29.5,
+        "upside_pct": 94.1
       },
       "scores": {
         "news": 30,
-        "revisions": 0,
-        "options": 5,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 9,
-        "revisions": {
-          "bull_analysten": 36,
-          "vorher_bull_analysten": 37,
-          "delta_bull_analysten": -1,
-          "davon_strong_buy": 7,
-          "trend": "fallend"
-        },
-        "options": {
-          "call_put_ratio": 1.48,
-          "call_vol": 6872,
-          "put_vol": 4633,
-          "quality": "ausreichend"
-        }
-      }
-    },
-    {
-      "ticker": "S",
-      "thema": "Cybersecurity / KI-Sicherheit",
-      "gesamt_score": 35,
-      "signal_stufe": "MODERAT",
-      "kurs_info": {
-        "kurs": 22.38,
-        "hoch_52w": 24.4,
-        "tief_52w": 11.81,
-        "abstand_ath_prozent": 8.3,
-        "ziel_kurs": 24.38,
-        "upside_pct": 8.9
-      },
-      "scores": {
-        "news": 30,
-        "revisions": 0,
-        "options": 5,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 9,
-        "revisions": {
-          "bull_analysten": 19,
-          "vorher_bull_analysten": 21,
-          "delta_bull_analysten": -2,
-          "davon_strong_buy": 3,
-          "trend": "fallend"
-        },
-        "options": {
-          "call_put_ratio": 1.43,
-          "call_vol": 6402,
-          "put_vol": 4480,
-          "quality": "ausreichend"
-        }
-      }
-    },
-    {
-      "ticker": "TSM",
-      "thema": "AI Hardware / Semiconductors",
-      "gesamt_score": 30,
-      "signal_stufe": "MODERAT",
-      "kurs_info": {
-        "kurs": 450.61,
-        "hoch_52w": 479.0,
-        "tief_52w": 266.82,
-        "abstand_ath_prozent": 5.9,
-        "ziel_kurs": 552.26,
-        "upside_pct": 22.6
-      },
-      "scores": {
-        "news": 20,
-        "revisions": 10,
+        "revisions": 5,
         "options": 0,
         "trends": 0
       },
       "details": {
-        "news_treffer": 4,
+        "news_treffer": 10,
         "revisions": {
-          "bull_analysten": 20,
-          "vorher_bull_analysten": 18,
-          "delta_bull_analysten": 2,
-          "davon_strong_buy": 6,
+          "bull_analysten": 8,
+          "vorher_bull_analysten": 7,
+          "delta_bull_analysten": 1,
+          "davon_strong_buy": 0,
           "trend": "steigend"
         },
         "options": {
-          "call_put_ratio": 0.97,
-          "call_vol": 11119,
-          "put_vol": 11433,
+          "call_put_ratio": 0.43,
+          "call_vol": 4669,
+          "put_vol": 10938,
+          "quality": "ausreichend"
+        }
+      }
+    },
+    {
+      "ticker": "CRWD",
+      "thema": "Cybersecurity / KI-Sicherheit",
+      "gesamt_score": 35,
+      "signal_stufe": "MODERAT",
+      "kurs_info": {
+        "kurs": 259.25,
+        "hoch_52w": 263.87,
+        "tief_52w": 85.68,
+        "abstand_ath_prozent": 1.8,
+        "ziel_kurs": 235.67,
+        "upside_pct": -9.1
+      },
+      "scores": {
+        "news": 30,
+        "revisions": 0,
+        "options": 5,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 15,
+        "revisions": {
+          "bull_analysten": 40,
+          "vorher_bull_analysten": 40,
+          "delta_bull_analysten": 0,
+          "davon_strong_buy": 10,
+          "trend": "stabil"
+        },
+        "options": {
+          "call_put_ratio": 1.19,
+          "call_vol": 23227,
+          "put_vol": 19541,
+          "quality": "ausreichend"
+        }
+      }
+    },
+    {
+      "ticker": "ETN",
+      "thema": "AI Power / Energy",
+      "gesamt_score": 30,
+      "signal_stufe": "MODERAT",
+      "kurs_info": {
+        "kurs": 431.41,
+        "hoch_52w": 478.0,
+        "tief_52w": 311.92,
+        "abstand_ath_prozent": 9.7,
+        "ziel_kurs": 480.47,
+        "upside_pct": 11.4
+      },
+      "scores": {
+        "news": 5,
+        "revisions": 10,
+        "options": 15,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 1,
+        "revisions": {
+          "bull_analysten": 24,
+          "vorher_bull_analysten": 22,
+          "delta_bull_analysten": 2,
+          "davon_strong_buy": 5,
+          "trend": "steigend"
+        },
+        "options": {
+          "call_put_ratio": 2.12,
+          "call_vol": 584,
+          "put_vol": 275,
           "quality": "ausreichend"
         }
       }
@@ -1268,12 +1202,12 @@
       "gesamt_score": 30,
       "signal_stufe": "MODERAT",
       "kurs_info": {
-        "kurs": 152.05,
+        "kurs": 147.23,
         "hoch_52w": 417.86,
         "tief_52w": 135.2,
-        "abstand_ath_prozent": 63.6,
+        "abstand_ath_prozent": 64.8,
         "ziel_kurs": 219.35,
-        "upside_pct": 44.3
+        "upside_pct": 49.0
       },
       "scores": {
         "news": 30,
@@ -1291,153 +1225,45 @@
           "trend": "stabil"
         },
         "options": {
-          "call_put_ratio": 0.8,
-          "call_vol": 684,
-          "put_vol": 856,
+          "call_put_ratio": 0.99,
+          "call_vol": 866,
+          "put_vol": 872,
           "quality": "ausreichend"
         }
       }
     },
     {
-      "ticker": "KTOS",
-      "thema": "Defense Tech / Drohnen",
+      "ticker": "VKTX",
+      "thema": "Biotech / GLP-1 / Obesity",
       "gesamt_score": 30,
       "signal_stufe": "MODERAT",
       "kurs_info": {
-        "kurs": 45.62,
-        "hoch_52w": 134.0,
-        "tief_52w": 43.09,
-        "abstand_ath_prozent": 66.0,
-        "ziel_kurs": 102.76,
-        "upside_pct": 125.3
+        "kurs": 33.03,
+        "hoch_52w": 43.15,
+        "tief_52w": 25.04,
+        "abstand_ath_prozent": 23.5,
+        "ziel_kurs": 94.82,
+        "upside_pct": 187.1
       },
       "scores": {
-        "news": 30,
+        "news": 20,
         "revisions": 0,
-        "options": 0,
+        "options": 10,
         "trends": 0
       },
       "details": {
-        "news_treffer": 11,
+        "news_treffer": 4,
         "revisions": {
-          "bull_analysten": 19,
-          "vorher_bull_analysten": 19,
+          "bull_analysten": 18,
+          "vorher_bull_analysten": 18,
           "delta_bull_analysten": 0,
-          "davon_strong_buy": 4,
-          "trend": "stabil"
-        },
-        "options": {
-          "call_put_ratio": 0.46,
-          "call_vol": 948,
-          "put_vol": 2057,
-          "quality": "ausreichend"
-        }
-      }
-    },
-    {
-      "ticker": "HII",
-      "thema": "Defense Tech / Drohnen",
-      "gesamt_score": 30,
-      "signal_stufe": "MODERAT",
-      "kurs_info": {
-        "kurs": 264.02,
-        "hoch_52w": 460.0,
-        "tief_52w": 261.71,
-        "abstand_ath_prozent": 42.6,
-        "ziel_kurs": 367.25,
-        "upside_pct": 39.1
-      },
-      "scores": {
-        "news": 10,
-        "revisions": 0,
-        "options": 20,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 2,
-        "revisions": {
-          "bull_analysten": 6,
-          "vorher_bull_analysten": 6,
-          "delta_bull_analysten": 0,
-          "davon_strong_buy": 1,
-          "trend": "stabil"
-        },
-        "options": {
-          "call_put_ratio": 8.96,
-          "call_vol": 233,
-          "put_vol": 26,
-          "quality": "ausreichend"
-        }
-      }
-    },
-    {
-      "ticker": "CCJ",
-      "thema": "Nuklearenergie / SMR",
-      "gesamt_score": 30,
-      "signal_stufe": "MODERAT",
-      "kurs_info": {
-        "kurs": 88.07,
-        "hoch_52w": 135.24,
-        "tief_52w": 77.7,
-        "abstand_ath_prozent": 34.9,
-        "ziel_kurs": 127.51,
-        "upside_pct": 44.8
-      },
-      "scores": {
-        "news": 30,
-        "revisions": 0,
-        "options": 0,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 15,
-        "revisions": {
-          "bull_analysten": 19,
-          "vorher_bull_analysten": 20,
-          "delta_bull_analysten": -1,
-          "davon_strong_buy": 8,
-          "trend": "fallend"
-        },
-        "options": {
-          "call_put_ratio": 0.59,
-          "call_vol": 1126,
-          "put_vol": 1897,
-          "quality": "ausreichend"
-        }
-      }
-    },
-    {
-      "ticker": "MBLY",
-      "thema": "Autonomes Fahren",
-      "gesamt_score": 30,
-      "signal_stufe": "MODERAT",
-      "kurs_info": {
-        "kurs": 8.03,
-        "hoch_52w": 15.81,
-        "tief_52w": 6.47,
-        "abstand_ath_prozent": 49.2,
-        "ziel_kurs": 11.7,
-        "upside_pct": 45.7
-      },
-      "scores": {
-        "news": 10,
-        "revisions": 0,
-        "options": 20,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 2,
-        "revisions": {
-          "bull_analysten": 12,
-          "vorher_bull_analysten": 15,
-          "delta_bull_analysten": -3,
           "davon_strong_buy": 5,
-          "trend": "fallend"
+          "trend": "stabil"
         },
         "options": {
-          "call_put_ratio": 7.43,
-          "call_vol": 1656,
-          "put_vol": 223,
+          "call_put_ratio": 1.84,
+          "call_vol": 6320,
+          "put_vol": 3426,
           "quality": "ausreichend"
         }
       }
@@ -1448,12 +1274,12 @@
       "gesamt_score": 30,
       "signal_stufe": "MODERAT",
       "kurs_info": {
-        "kurs": 12.08,
+        "kurs": 11.74,
         "hoch_52w": 25.93,
         "tief_52w": 6.6,
-        "abstand_ath_prozent": 53.4,
+        "abstand_ath_prozent": 54.7,
         "ziel_kurs": 20.88,
-        "upside_pct": 72.8
+        "upside_pct": 77.9
       },
       "scores": {
         "news": 30,
@@ -1471,25 +1297,25 @@
           "trend": "stabil"
         },
         "options": {
-          "call_put_ratio": 0.47,
-          "call_vol": 150,
-          "put_vol": 319,
+          "call_put_ratio": 0.58,
+          "call_vol": 164,
+          "put_vol": 285,
           "quality": "ausreichend"
         }
       }
     },
     {
-      "ticker": "CRWD",
+      "ticker": "S",
       "thema": "Cybersecurity / KI-Sicherheit",
       "gesamt_score": 30,
       "signal_stufe": "MODERAT",
       "kurs_info": {
-        "kurs": 252.13,
-        "hoch_52w": 263.87,
-        "tief_52w": 85.68,
-        "abstand_ath_prozent": 4.4,
-        "ziel_kurs": 235.67,
-        "upside_pct": -6.5
+        "kurs": 22.74,
+        "hoch_52w": 24.4,
+        "tief_52w": 11.81,
+        "abstand_ath_prozent": 6.8,
+        "ziel_kurs": 24.38,
+        "upside_pct": 7.2
       },
       "scores": {
         "news": 30,
@@ -1498,54 +1324,90 @@
         "trends": 0
       },
       "details": {
-        "news_treffer": 16,
+        "news_treffer": 12,
         "revisions": {
-          "bull_analysten": 40,
-          "vorher_bull_analysten": 40,
-          "delta_bull_analysten": 0,
-          "davon_strong_buy": 10,
-          "trend": "stabil"
-        },
-        "options": {
-          "call_put_ratio": 0.65,
-          "call_vol": 12318,
-          "put_vol": 18894,
-          "quality": "ausreichend"
-        }
-      }
-    },
-    {
-      "ticker": "PANW",
-      "thema": "Cybersecurity / KI-Sicherheit",
-      "gesamt_score": 30,
-      "signal_stufe": "MODERAT",
-      "kurs_info": {
-        "kurs": 374.74,
-        "hoch_52w": 398.88,
-        "tief_52w": 139.57,
-        "abstand_ath_prozent": 6.1,
-        "ziel_kurs": 395.7,
-        "upside_pct": 5.6
-      },
-      "scores": {
-        "news": 30,
-        "revisions": 0,
-        "options": 0,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 15,
-        "revisions": {
-          "bull_analysten": 42,
-          "vorher_bull_analysten": 44,
+          "bull_analysten": 19,
+          "vorher_bull_analysten": 21,
           "delta_bull_analysten": -2,
-          "davon_strong_buy": 10,
+          "davon_strong_buy": 3,
           "trend": "fallend"
         },
         "options": {
-          "call_put_ratio": 0.85,
-          "call_vol": 5360,
-          "put_vol": 6286,
+          "call_put_ratio": 0.94,
+          "call_vol": 2128,
+          "put_vol": 2257,
+          "quality": "ausreichend"
+        }
+      }
+    },
+    {
+      "ticker": "FTNT",
+      "thema": "Cybersecurity / KI-Sicherheit",
+      "gesamt_score": 30,
+      "signal_stufe": "MODERAT",
+      "kurs_info": {
+        "kurs": 176.33,
+        "hoch_52w": 181.37,
+        "tief_52w": 73.55,
+        "abstand_ath_prozent": 2.8,
+        "ziel_kurs": 164.32,
+        "upside_pct": -6.8
+      },
+      "scores": {
+        "news": 30,
+        "revisions": 0,
+        "options": 0,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 9,
+        "revisions": {
+          "bull_analysten": 9,
+          "vorher_bull_analysten": 11,
+          "delta_bull_analysten": -2,
+          "davon_strong_buy": 1,
+          "trend": "fallend"
+        },
+        "options": {
+          "call_put_ratio": 0.95,
+          "call_vol": 1860,
+          "put_vol": 1959,
+          "quality": "ausreichend"
+        }
+      }
+    },
+    {
+      "ticker": "LRCX",
+      "thema": "AI Memory / HBM",
+      "gesamt_score": 25,
+      "signal_stufe": "SCHWACH",
+      "kurs_info": {
+        "kurs": 314.47,
+        "hoch_52w": 438.5,
+        "tief_52w": 130.81,
+        "abstand_ath_prozent": 28.3,
+        "ziel_kurs": 373.77,
+        "upside_pct": 18.9
+      },
+      "scores": {
+        "news": 0,
+        "revisions": 20,
+        "options": 5,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 0,
+        "revisions": {
+          "bull_analysten": 29,
+          "vorher_bull_analysten": 2,
+          "delta_bull_analysten": 27,
+          "davon_strong_buy": 4,
+          "trend": "steigend"
+        },
+        "options": {
+          "call_put_ratio": 1.2,
+          "call_vol": 4017,
+          "put_vol": 3345,
           "quality": "ausreichend"
         }
       }
@@ -1556,12 +1418,12 @@
       "gesamt_score": 25,
       "signal_stufe": "SCHWACH",
       "kurs_info": {
-        "kurs": 150.2,
+        "kurs": 148.89,
         "hoch_52w": 157.06,
         "tief_52w": 104.49,
-        "abstand_ath_prozent": 4.4,
+        "abstand_ath_prozent": 5.2,
         "ziel_kurs": 165.15,
-        "upside_pct": 10.0
+        "upside_pct": 10.9
       },
       "scores": {
         "news": 0,
@@ -1579,9 +1441,261 @@
           "trend": "steigend"
         },
         "options": {
-          "call_put_ratio": 10.18,
-          "call_vol": 957,
-          "put_vol": 94,
+          "call_put_ratio": 8.85,
+          "call_vol": 1486,
+          "put_vol": 168,
+          "quality": "ausreichend"
+        }
+      }
+    },
+    {
+      "ticker": "MBLY",
+      "thema": "Autonomes Fahren",
+      "gesamt_score": 25,
+      "signal_stufe": "SCHWACH",
+      "kurs_info": {
+        "kurs": 7.8,
+        "hoch_52w": 15.81,
+        "tief_52w": 6.47,
+        "abstand_ath_prozent": 50.7,
+        "ziel_kurs": 11.7,
+        "upside_pct": 50.0
+      },
+      "scores": {
+        "news": 5,
+        "revisions": 0,
+        "options": 20,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 1,
+        "revisions": {
+          "bull_analysten": 12,
+          "vorher_bull_analysten": 15,
+          "delta_bull_analysten": -3,
+          "davon_strong_buy": 5,
+          "trend": "fallend"
+        },
+        "options": {
+          "call_put_ratio": 3.73,
+          "call_vol": 761,
+          "put_vol": 204,
+          "quality": "ausreichend"
+        }
+      }
+    },
+    {
+      "ticker": "STEM",
+      "thema": "Grid / Batteriespeicher",
+      "gesamt_score": 25,
+      "signal_stufe": "SCHWACH",
+      "kurs_info": {
+        "kurs": 4.55,
+        "hoch_52w": 32.23,
+        "tief_52w": 3.7,
+        "abstand_ath_prozent": 85.9,
+        "ziel_kurs": 7.45,
+        "upside_pct": 63.7
+      },
+      "scores": {
+        "news": 20,
+        "revisions": 5,
+        "options": 0,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 4,
+        "revisions": {
+          "bull_analysten": 1,
+          "vorher_bull_analysten": 0,
+          "delta_bull_analysten": 1,
+          "davon_strong_buy": 0,
+          "trend": "steigend"
+        },
+        "options": {
+          "call_put_ratio": null,
+          "call_vol": 22,
+          "put_vol": 13,
+          "quality": "zu_wenig_volumen"
+        }
+      }
+    },
+    {
+      "ticker": "VST",
+      "thema": "AI Power / Energy",
+      "gesamt_score": 20,
+      "signal_stufe": "SCHWACH",
+      "kurs_info": {
+        "kurs": 138.02,
+        "hoch_52w": 217.1,
+        "tief_52w": 132.66,
+        "abstand_ath_prozent": 36.4,
+        "ziel_kurs": 217.58,
+        "upside_pct": 57.6
+      },
+      "scores": {
+        "news": 5,
+        "revisions": 0,
+        "options": 15,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 1,
+        "revisions": {
+          "bull_analysten": 19,
+          "vorher_bull_analysten": 19,
+          "delta_bull_analysten": 0,
+          "davon_strong_buy": 4,
+          "trend": "stabil"
+        },
+        "options": {
+          "call_put_ratio": 2.57,
+          "call_vol": 8895,
+          "put_vol": 3458,
+          "quality": "ausreichend"
+        }
+      }
+    },
+    {
+      "ticker": "CEG",
+      "thema": "AI Power / Energy",
+      "gesamt_score": 20,
+      "signal_stufe": "SCHWACH",
+      "kurs_info": {
+        "kurs": 260.43,
+        "hoch_52w": 412.7,
+        "tief_52w": 228.63,
+        "abstand_ath_prozent": 36.9,
+        "ziel_kurs": 347.28,
+        "upside_pct": 33.3
+      },
+      "scores": {
+        "news": 5,
+        "revisions": 0,
+        "options": 15,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 1,
+        "revisions": {
+          "bull_analysten": 19,
+          "vorher_bull_analysten": 19,
+          "delta_bull_analysten": 0,
+          "davon_strong_buy": 6,
+          "trend": "stabil"
+        },
+        "options": {
+          "call_put_ratio": 2.32,
+          "call_vol": 1840,
+          "put_vol": 793,
+          "quality": "ausreichend"
+        }
+      }
+    },
+    {
+      "ticker": "NRG",
+      "thema": "AI Power / Energy",
+      "gesamt_score": 20,
+      "signal_stufe": "SCHWACH",
+      "kurs_info": {
+        "kurs": 97.0,
+        "hoch_52w": 189.96,
+        "tief_52w": 96.86,
+        "abstand_ath_prozent": 48.9,
+        "ziel_kurs": 188.56,
+        "upside_pct": 94.4
+      },
+      "scores": {
+        "news": 0,
+        "revisions": 0,
+        "options": 20,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 0,
+        "revisions": {
+          "bull_analysten": 13,
+          "vorher_bull_analysten": 13,
+          "delta_bull_analysten": 0,
+          "davon_strong_buy": 3,
+          "trend": "stabil"
+        },
+        "options": {
+          "call_put_ratio": 5.54,
+          "call_vol": 2131,
+          "put_vol": 385,
+          "quality": "ausreichend"
+        }
+      }
+    },
+    {
+      "ticker": "EMR",
+      "thema": "AI Power / Energy",
+      "gesamt_score": 20,
+      "signal_stufe": "SCHWACH",
+      "kurs_info": {
+        "kurs": 159.39,
+        "hoch_52w": 166.35,
+        "tief_52w": 122.64,
+        "abstand_ath_prozent": 4.2,
+        "ziel_kurs": 173.5,
+        "upside_pct": 8.9
+      },
+      "scores": {
+        "news": 0,
+        "revisions": 5,
+        "options": 15,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 0,
+        "revisions": {
+          "bull_analysten": 20,
+          "vorher_bull_analysten": 19,
+          "delta_bull_analysten": 1,
+          "davon_strong_buy": 4,
+          "trend": "steigend"
+        },
+        "options": {
+          "call_put_ratio": 2.7,
+          "call_vol": 135,
+          "put_vol": 50,
+          "quality": "ausreichend"
+        }
+      }
+    },
+    {
+      "ticker": "APD",
+      "thema": "AI Cooling / Infrastructure",
+      "gesamt_score": 20,
+      "signal_stufe": "SCHWACH",
+      "kurs_info": {
+        "kurs": 278.75,
+        "hoch_52w": 314.87,
+        "tief_52w": 229.11,
+        "abstand_ath_prozent": 11.5,
+        "ziel_kurs": 345.11,
+        "upside_pct": 23.8
+      },
+      "scores": {
+        "news": 0,
+        "revisions": 5,
+        "options": 15,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 0,
+        "revisions": {
+          "bull_analysten": 15,
+          "vorher_bull_analysten": 14,
+          "delta_bull_analysten": 1,
+          "davon_strong_buy": 4,
+          "trend": "steigend"
+        },
+        "options": {
+          "call_put_ratio": 2.15,
+          "call_vol": 129,
+          "put_vol": 60,
           "quality": "ausreichend"
         }
       }
@@ -1592,32 +1706,32 @@
       "gesamt_score": 20,
       "signal_stufe": "SCHWACH",
       "kurs_info": {
-        "kurs": 485.0,
+        "kurs": 486.76,
         "hoch_52w": 739.67,
         "tief_52w": 202.87,
-        "abstand_ath_prozent": 34.4,
-        "ziel_kurs": 638.63,
-        "upside_pct": 31.7
+        "abstand_ath_prozent": 34.2,
+        "ziel_kurs": 638.94,
+        "upside_pct": 31.3
       },
       "scores": {
         "news": 15,
-        "revisions": 0,
-        "options": 5,
+        "revisions": 5,
+        "options": 0,
         "trends": 0
       },
       "details": {
         "news_treffer": 3,
         "revisions": {
-          "bull_analysten": 32,
+          "bull_analysten": 33,
           "vorher_bull_analysten": 32,
-          "delta_bull_analysten": 0,
+          "delta_bull_analysten": 1,
           "davon_strong_buy": 4,
-          "trend": "stabil"
+          "trend": "steigend"
         },
         "options": {
-          "call_put_ratio": 1.4,
-          "call_vol": 7584,
-          "put_vol": 5434,
+          "call_put_ratio": 0.93,
+          "call_vol": 4516,
+          "put_vol": 4839,
           "quality": "ausreichend"
         }
       }
@@ -1628,12 +1742,12 @@
       "gesamt_score": 20,
       "signal_stufe": "SCHWACH",
       "kurs_info": {
-        "kurs": 187.92,
+        "kurs": 189.17,
         "hoch_52w": 307.37,
         "tief_52w": 98.1,
-        "abstand_ath_prozent": 38.9,
+        "abstand_ath_prozent": 38.5,
         "ziel_kurs": 233.77,
-        "upside_pct": 24.4
+        "upside_pct": 23.6
       },
       "scores": {
         "news": 15,
@@ -1651,45 +1765,45 @@
           "trend": "stabil"
         },
         "options": {
-          "call_put_ratio": 1.48,
-          "call_vol": 960,
-          "put_vol": 648,
+          "call_put_ratio": 1.49,
+          "call_vol": 1918,
+          "put_vol": 1291,
           "quality": "ausreichend"
         }
       }
     },
     {
-      "ticker": "PH",
+      "ticker": "NVDA",
       "thema": "Robotik / Humanoid",
       "gesamt_score": 20,
       "signal_stufe": "SCHWACH",
       "kurs_info": {
-        "kurs": 978.33,
-        "hoch_52w": 1099.94,
-        "tief_52w": 715.37,
-        "abstand_ath_prozent": 11.1,
-        "ziel_kurs": 1158.41,
-        "upside_pct": 18.4
+        "kurs": 228.86,
+        "hoch_52w": 236.54,
+        "tief_52w": 164.27,
+        "abstand_ath_prozent": 3.2,
+        "ziel_kurs": 327.7,
+        "upside_pct": 43.2
       },
       "scores": {
-        "news": 10,
-        "revisions": 0,
-        "options": 10,
+        "news": 0,
+        "revisions": 5,
+        "options": 15,
         "trends": 0
       },
       "details": {
-        "news_treffer": 2,
+        "news_treffer": 0,
         "revisions": {
-          "bull_analysten": 19,
-          "vorher_bull_analysten": 19,
-          "delta_bull_analysten": 0,
-          "davon_strong_buy": 3,
-          "trend": "stabil"
+          "bull_analysten": 58,
+          "vorher_bull_analysten": 57,
+          "delta_bull_analysten": 1,
+          "davon_strong_buy": 10,
+          "trend": "steigend"
         },
         "options": {
-          "call_put_ratio": 1.51,
-          "call_vol": 187,
-          "put_vol": 124,
+          "call_put_ratio": 2.22,
+          "call_vol": 387407,
+          "put_vol": 174334,
           "quality": "ausreichend"
         }
       }
@@ -1700,12 +1814,12 @@
       "gesamt_score": 20,
       "signal_stufe": "SCHWACH",
       "kurs_info": {
-        "kurs": 1116.2,
+        "kurs": 1109.22,
         "hoch_52w": 1463.03,
         "tief_52w": 1071.25,
-        "abstand_ath_prozent": 23.7,
-        "ziel_kurs": 1513.37,
-        "upside_pct": 35.6
+        "abstand_ath_prozent": 24.2,
+        "ziel_kurs": 1497.0,
+        "upside_pct": 35.0
       },
       "scores": {
         "news": 0,
@@ -1723,9 +1837,111 @@
           "trend": "fallend"
         },
         "options": {
-          "call_put_ratio": 15.46,
-          "call_vol": 943,
-          "put_vol": 61,
+          "call_put_ratio": 3.36,
+          "call_vol": 437,
+          "put_vol": 130,
+          "quality": "ausreichend"
+        }
+      }
+    },
+    {
+      "ticker": "ARQQ",
+      "thema": "Quantencomputing",
+      "gesamt_score": 20,
+      "signal_stufe": "SCHWACH",
+      "kurs_info": {
+        "kurs": 24.64,
+        "hoch_52w": 62.0,
+        "tief_52w": 11.52,
+        "abstand_ath_prozent": 60.3,
+        "ziel_kurs": 0.0,
+        "upside_pct": null
+      },
+      "scores": {
+        "news": 20,
+        "revisions": 0,
+        "options": 0,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 4,
+        "revisions": {},
+        "options": {
+          "call_put_ratio": null,
+          "call_vol": 42,
+          "put_vol": 15,
+          "quality": "zu_wenig_volumen"
+        }
+      }
+    },
+    {
+      "ticker": "AMGN",
+      "thema": "Biotech / GLP-1 / Obesity",
+      "gesamt_score": 20,
+      "signal_stufe": "SCHWACH",
+      "kurs_info": {
+        "kurs": 418.13,
+        "hoch_52w": 447.03,
+        "tief_52w": 274.02,
+        "abstand_ath_prozent": 6.5,
+        "ziel_kurs": 389.22,
+        "upside_pct": -6.9
+      },
+      "scores": {
+        "news": 10,
+        "revisions": 0,
+        "options": 10,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 2,
+        "revisions": {
+          "bull_analysten": 12,
+          "vorher_bull_analysten": 14,
+          "delta_bull_analysten": -2,
+          "davon_strong_buy": 4,
+          "trend": "fallend"
+        },
+        "options": {
+          "call_put_ratio": 1.7,
+          "call_vol": 756,
+          "put_vol": 445,
+          "quality": "ausreichend"
+        }
+      }
+    },
+    {
+      "ticker": "PFE",
+      "thema": "Biotech / GLP-1 / Obesity",
+      "gesamt_score": 20,
+      "signal_stufe": "SCHWACH",
+      "kurs_info": {
+        "kurs": 28.72,
+        "hoch_52w": 29.21,
+        "tief_52w": 23.62,
+        "abstand_ath_prozent": 1.7,
+        "ziel_kurs": 28.88,
+        "upside_pct": 0.6
+      },
+      "scores": {
+        "news": 0,
+        "revisions": 0,
+        "options": 20,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 0,
+        "revisions": {
+          "bull_analysten": 10,
+          "vorher_bull_analysten": 10,
+          "delta_bull_analysten": 0,
+          "davon_strong_buy": 2,
+          "trend": "stabil"
+        },
+        "options": {
+          "call_put_ratio": 3.31,
+          "call_vol": 16634,
+          "put_vol": 5030,
           "quality": "ausreichend"
         }
       }
@@ -1736,12 +1952,12 @@
       "gesamt_score": 20,
       "signal_stufe": "SCHWACH",
       "kurs_info": {
-        "kurs": 280.78,
+        "kurs": 285.65,
         "hoch_52w": 392.7,
-        "tief_52w": 50.23,
-        "abstand_ath_prozent": 28.5,
+        "tief_52w": 50.31,
+        "abstand_ath_prozent": 27.3,
         "ziel_kurs": 638.68,
-        "upside_pct": 127.5
+        "upside_pct": 123.6
       },
       "scores": {
         "news": 0,
@@ -1759,81 +1975,9 @@
           "trend": "stabil"
         },
         "options": {
-          "call_put_ratio": 4.05,
-          "call_vol": 170,
-          "put_vol": 42,
-          "quality": "ausreichend"
-        }
-      }
-    },
-    {
-      "ticker": "VST",
-      "thema": "AI Power / Energy",
-      "gesamt_score": 15,
-      "signal_stufe": "SCHWACH",
-      "kurs_info": {
-        "kurs": 138.46,
-        "hoch_52w": 217.1,
-        "tief_52w": 132.66,
-        "abstand_ath_prozent": 36.2,
-        "ziel_kurs": 217.58,
-        "upside_pct": 57.1
-      },
-      "scores": {
-        "news": 5,
-        "revisions": 0,
-        "options": 10,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 1,
-        "revisions": {
-          "bull_analysten": 19,
-          "vorher_bull_analysten": 19,
-          "delta_bull_analysten": 0,
-          "davon_strong_buy": 4,
-          "trend": "stabil"
-        },
-        "options": {
-          "call_put_ratio": 1.66,
-          "call_vol": 5416,
-          "put_vol": 3262,
-          "quality": "ausreichend"
-        }
-      }
-    },
-    {
-      "ticker": "TT",
-      "thema": "AI Cooling / Infrastructure",
-      "gesamt_score": 15,
-      "signal_stufe": "SCHWACH",
-      "kurs_info": {
-        "kurs": 454.44,
-        "hoch_52w": 505.87,
-        "tief_52w": 348.06,
-        "abstand_ath_prozent": 10.2,
-        "ziel_kurs": 527.4,
-        "upside_pct": 16.1
-      },
-      "scores": {
-        "news": 0,
-        "revisions": 5,
-        "options": 10,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 0,
-        "revisions": {
-          "bull_analysten": 14,
-          "vorher_bull_analysten": 13,
-          "delta_bull_analysten": 1,
-          "davon_strong_buy": 2,
-          "trend": "steigend"
-        },
-        "options": {
-          "call_put_ratio": 1.96,
-          "call_vol": 131,
-          "put_vol": 67,
+          "call_put_ratio": 5.92,
+          "call_vol": 308,
+          "put_vol": 52,
           "quality": "ausreichend"
         }
       }
@@ -1844,21 +1988,21 @@
       "gesamt_score": 15,
       "signal_stufe": "SCHWACH",
       "kurs_info": {
-        "kurs": 106.7,
+        "kurs": 106.74,
         "hoch_52w": 130.37,
         "tief_52w": 66.81,
-        "abstand_ath_prozent": 18.2,
+        "abstand_ath_prozent": 18.1,
         "ziel_kurs": 137.25,
         "upside_pct": 28.6
       },
       "scores": {
-        "news": 10,
+        "news": 0,
         "revisions": 0,
-        "options": 5,
+        "options": 15,
         "trends": 0
       },
       "details": {
-        "news_treffer": 2,
+        "news_treffer": 0,
         "revisions": {
           "bull_analysten": 19,
           "vorher_bull_analysten": 19,
@@ -1867,9 +2011,9 @@
           "trend": "stabil"
         },
         "options": {
-          "call_put_ratio": 1.09,
-          "call_vol": 8417,
-          "put_vol": 7736,
+          "call_put_ratio": 2.13,
+          "call_vol": 6521,
+          "put_vol": 3055,
           "quality": "ausreichend"
         }
       }
@@ -1880,12 +2024,12 @@
       "gesamt_score": 15,
       "signal_stufe": "SCHWACH",
       "kurs_info": {
-        "kurs": 941.65,
+        "kurs": 921.32,
         "hoch_52w": 1085.68,
         "tief_52w": 147.81,
-        "abstand_ath_prozent": 13.3,
-        "ziel_kurs": 1149.38,
-        "upside_pct": 22.1
+        "abstand_ath_prozent": 15.1,
+        "ziel_kurs": 1157.07,
+        "upside_pct": 25.6
       },
       "scores": {
         "news": 0,
@@ -1903,9 +2047,45 @@
           "trend": "stabil"
         },
         "options": {
-          "call_put_ratio": 2.21,
-          "call_vol": 14360,
-          "put_vol": 6506,
+          "call_put_ratio": 2.02,
+          "call_vol": 13827,
+          "put_vol": 6848,
+          "quality": "ausreichend"
+        }
+      }
+    },
+    {
+      "ticker": "ISRG",
+      "thema": "Robotik / Humanoid",
+      "gesamt_score": 15,
+      "signal_stufe": "SCHWACH",
+      "kurs_info": {
+        "kurs": 414.79,
+        "hoch_52w": 603.88,
+        "tief_52w": 328.57,
+        "abstand_ath_prozent": 31.3,
+        "ziel_kurs": 476.34,
+        "upside_pct": 14.8
+      },
+      "scores": {
+        "news": 0,
+        "revisions": 0,
+        "options": 15,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 0,
+        "revisions": {
+          "bull_analysten": 24,
+          "vorher_bull_analysten": 24,
+          "delta_bull_analysten": 0,
+          "davon_strong_buy": 7,
+          "trend": "stabil"
+        },
+        "options": {
+          "call_put_ratio": 2.73,
+          "call_vol": 1247,
+          "put_vol": 456,
           "quality": "ausreichend"
         }
       }
@@ -1916,12 +2096,12 @@
       "gesamt_score": 15,
       "signal_stufe": "SCHWACH",
       "kurs_info": {
-        "kurs": 434.15,
+        "kurs": 431.22,
         "hoch_52w": 497.36,
         "tief_52w": 332.71,
-        "abstand_ath_prozent": 12.7,
+        "abstand_ath_prozent": 13.3,
         "ziel_kurs": 476.84,
-        "upside_pct": 9.8
+        "upside_pct": 10.6
       },
       "scores": {
         "news": 15,
@@ -1939,61 +2119,25 @@
           "trend": "fallend"
         },
         "options": {
-          "call_put_ratio": 0.71,
-          "call_vol": 210,
-          "put_vol": 296,
+          "call_put_ratio": 0.64,
+          "call_vol": 194,
+          "put_vol": 305,
           "quality": "ausreichend"
         }
       }
     },
     {
-      "ticker": "NVDA",
+      "ticker": "PH",
       "thema": "Robotik / Humanoid",
       "gesamt_score": 15,
       "signal_stufe": "SCHWACH",
       "kurs_info": {
-        "kurs": 225.07,
-        "hoch_52w": 236.54,
-        "tief_52w": 164.27,
-        "abstand_ath_prozent": 4.8,
-        "ziel_kurs": 327.7,
-        "upside_pct": 45.6
-      },
-      "scores": {
-        "news": 0,
-        "revisions": 5,
-        "options": 10,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 0,
-        "revisions": {
-          "bull_analysten": 58,
-          "vorher_bull_analysten": 57,
-          "delta_bull_analysten": 1,
-          "davon_strong_buy": 10,
-          "trend": "steigend"
-        },
-        "options": {
-          "call_put_ratio": 1.94,
-          "call_vol": 227952,
-          "put_vol": 117740,
-          "quality": "ausreichend"
-        }
-      }
-    },
-    {
-      "ticker": "AMGN",
-      "thema": "Biotech / GLP-1 / Obesity",
-      "gesamt_score": 15,
-      "signal_stufe": "SCHWACH",
-      "kurs_info": {
-        "kurs": 414.61,
-        "hoch_52w": 447.03,
-        "tief_52w": 270.67,
-        "abstand_ath_prozent": 7.3,
-        "ziel_kurs": 389.22,
-        "upside_pct": -6.1
+        "kurs": 969.55,
+        "hoch_52w": 1099.94,
+        "tief_52w": 715.37,
+        "abstand_ath_prozent": 11.9,
+        "ziel_kurs": 1158.41,
+        "upside_pct": 19.5
       },
       "scores": {
         "news": 10,
@@ -2004,52 +2148,16 @@
       "details": {
         "news_treffer": 2,
         "revisions": {
-          "bull_analysten": 12,
-          "vorher_bull_analysten": 14,
-          "delta_bull_analysten": -2,
-          "davon_strong_buy": 4,
-          "trend": "fallend"
-        },
-        "options": {
-          "call_put_ratio": 1.34,
-          "call_vol": 1038,
-          "put_vol": 775,
-          "quality": "ausreichend"
-        }
-      }
-    },
-    {
-      "ticker": "PFE",
-      "thema": "Biotech / GLP-1 / Obesity",
-      "gesamt_score": 15,
-      "signal_stufe": "SCHWACH",
-      "kurs_info": {
-        "kurs": 28.67,
-        "hoch_52w": 29.21,
-        "tief_52w": 23.62,
-        "abstand_ath_prozent": 1.8,
-        "ziel_kurs": 28.88,
-        "upside_pct": 0.7
-      },
-      "scores": {
-        "news": 5,
-        "revisions": 0,
-        "options": 10,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 1,
-        "revisions": {
-          "bull_analysten": 10,
-          "vorher_bull_analysten": 10,
+          "bull_analysten": 19,
+          "vorher_bull_analysten": 19,
           "delta_bull_analysten": 0,
-          "davon_strong_buy": 2,
+          "davon_strong_buy": 3,
           "trend": "stabil"
         },
         "options": {
-          "call_put_ratio": 1.67,
-          "call_vol": 8848,
-          "put_vol": 5292,
+          "call_put_ratio": 1.34,
+          "call_vol": 90,
+          "put_vol": 67,
           "quality": "ausreichend"
         }
       }
@@ -2060,12 +2168,12 @@
       "gesamt_score": 15,
       "signal_stufe": "SCHWACH",
       "kurs_info": {
-        "kurs": 2.13,
+        "kurs": 2.06,
         "hoch_52w": 6.57,
         "tief_52w": 1.92,
-        "abstand_ath_prozent": 67.6,
+        "abstand_ath_prozent": 68.6,
         "ziel_kurs": 4.02,
-        "upside_pct": 88.7
+        "upside_pct": 95.1
       },
       "scores": {
         "news": 15,
@@ -2084,45 +2192,9 @@
         },
         "options": {
           "call_put_ratio": null,
-          "call_vol": 21,
-          "put_vol": 13,
+          "call_vol": 29,
+          "put_vol": 29,
           "quality": "zu_wenig_volumen"
-        }
-      }
-    },
-    {
-      "ticker": "EMR",
-      "thema": "AI Power / Energy",
-      "gesamt_score": 10,
-      "signal_stufe": "SCHWACH",
-      "kurs_info": {
-        "kurs": 158.23,
-        "hoch_52w": 166.35,
-        "tief_52w": 122.64,
-        "abstand_ath_prozent": 4.9,
-        "ziel_kurs": 173.5,
-        "upside_pct": 9.7
-      },
-      "scores": {
-        "news": 0,
-        "revisions": 5,
-        "options": 5,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 0,
-        "revisions": {
-          "bull_analysten": 20,
-          "vorher_bull_analysten": 19,
-          "delta_bull_analysten": 1,
-          "davon_strong_buy": 4,
-          "trend": "steigend"
-        },
-        "options": {
-          "call_put_ratio": 1.43,
-          "call_vol": 123,
-          "put_vol": 86,
-          "quality": "ausreichend"
         }
       }
     },
@@ -2132,12 +2204,12 @@
       "gesamt_score": 10,
       "signal_stufe": "SCHWACH",
       "kurs_info": {
-        "kurs": 253.28,
+        "kurs": 244.04,
         "hoch_52w": 379.93,
-        "tief_52w": 141.4,
-        "abstand_ath_prozent": 33.3,
+        "tief_52w": 144.0,
+        "abstand_ath_prozent": 35.8,
         "ziel_kurs": 338.22,
-        "upside_pct": 33.5
+        "upside_pct": 38.6
       },
       "scores": {
         "news": 5,
@@ -2155,82 +2227,46 @@
           "trend": "steigend"
         },
         "options": {
-          "call_put_ratio": 0.73,
-          "call_vol": 3902,
-          "put_vol": 5339,
+          "call_put_ratio": 0.45,
+          "call_vol": 3660,
+          "put_vol": 8088,
           "quality": "ausreichend"
         }
       }
     },
     {
-      "ticker": "COHR",
-      "thema": "AI Networking",
+      "ticker": "HII",
+      "thema": "Defense Tech / Drohnen",
       "gesamt_score": 10,
       "signal_stufe": "SCHWACH",
       "kurs_info": {
-        "kurs": 295.83,
-        "hoch_52w": 440.0,
-        "tief_52w": 105.02,
-        "abstand_ath_prozent": 32.8,
-        "ziel_kurs": 415.36,
-        "upside_pct": 40.4
+        "kurs": 257.05,
+        "hoch_52w": 460.0,
+        "tief_52w": 256.81,
+        "abstand_ath_prozent": 44.1,
+        "ziel_kurs": 367.25,
+        "upside_pct": 42.9
       },
       "scores": {
-        "news": 0,
+        "news": 10,
         "revisions": 0,
-        "options": 10,
+        "options": 0,
         "trends": 0
       },
       "details": {
-        "news_treffer": 0,
+        "news_treffer": 2,
         "revisions": {
-          "bull_analysten": 18,
-          "vorher_bull_analysten": 18,
+          "bull_analysten": 6,
+          "vorher_bull_analysten": 6,
           "delta_bull_analysten": 0,
-          "davon_strong_buy": 4,
+          "davon_strong_buy": 1,
           "trend": "stabil"
         },
         "options": {
-          "call_put_ratio": 1.51,
-          "call_vol": 5417,
-          "put_vol": 3586,
-          "quality": "ausreichend"
-        }
-      }
-    },
-    {
-      "ticker": "ISRG",
-      "thema": "Robotik / Humanoid",
-      "gesamt_score": 10,
-      "signal_stufe": "SCHWACH",
-      "kurs_info": {
-        "kurs": 405.18,
-        "hoch_52w": 603.88,
-        "tief_52w": 328.57,
-        "abstand_ath_prozent": 32.9,
-        "ziel_kurs": 476.34,
-        "upside_pct": 17.6
-      },
-      "scores": {
-        "news": 0,
-        "revisions": 0,
-        "options": 10,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 0,
-        "revisions": {
-          "bull_analysten": 24,
-          "vorher_bull_analysten": 24,
-          "delta_bull_analysten": 0,
-          "davon_strong_buy": 7,
-          "trend": "stabil"
-        },
-        "options": {
-          "call_put_ratio": 1.83,
-          "call_vol": 800,
-          "put_vol": 437,
-          "quality": "ausreichend"
+          "call_put_ratio": null,
+          "call_vol": 36,
+          "put_vol": 27,
+          "quality": "zu_wenig_volumen"
         }
       }
     },
@@ -2240,12 +2276,12 @@
       "gesamt_score": 10,
       "signal_stufe": "SCHWACH",
       "kurs_info": {
-        "kurs": 33.49,
+        "kurs": 34.47,
         "hoch_52w": 43.67,
         "tief_52w": 15.73,
-        "abstand_ath_prozent": 23.3,
+        "abstand_ath_prozent": 21.1,
         "ziel_kurs": 35.35,
-        "upside_pct": 5.6
+        "upside_pct": 2.6
       },
       "scores": {
         "news": 10,
@@ -2263,9 +2299,9 @@
           "trend": "fallend"
         },
         "options": {
-          "call_put_ratio": 0.45,
-          "call_vol": 626,
-          "put_vol": 1406,
+          "call_put_ratio": 0.65,
+          "call_vol": 773,
+          "put_vol": 1190,
           "quality": "ausreichend"
         }
       }
@@ -2276,156 +2312,12 @@
       "gesamt_score": 5,
       "signal_stufe": "SCHWACH",
       "kurs_info": {
-        "kurs": 485.0,
+        "kurs": 486.76,
         "hoch_52w": 739.67,
         "tief_52w": 202.87,
-        "abstand_ath_prozent": 34.4,
-        "ziel_kurs": 638.63,
-        "upside_pct": 31.7
-      },
-      "scores": {
-        "news": 0,
-        "revisions": 0,
-        "options": 5,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 0,
-        "revisions": {
-          "bull_analysten": 32,
-          "vorher_bull_analysten": 32,
-          "delta_bull_analysten": 0,
-          "davon_strong_buy": 4,
-          "trend": "stabil"
-        },
-        "options": {
-          "call_put_ratio": 1.4,
-          "call_vol": 7584,
-          "put_vol": 5434,
-          "quality": "ausreichend"
-        }
-      }
-    },
-    {
-      "ticker": "ONTO",
-      "thema": "AI Memory / HBM",
-      "gesamt_score": 5,
-      "signal_stufe": "SCHWACH",
-      "kurs_info": {
-        "kurs": 287.64,
-        "hoch_52w": 386.46,
-        "tief_52w": 118.97,
-        "abstand_ath_prozent": 25.6,
-        "ziel_kurs": 386.36,
-        "upside_pct": 34.3
-      },
-      "scores": {
-        "news": 0,
-        "revisions": 0,
-        "options": 5,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 0,
-        "revisions": {
-          "bull_analysten": 11,
-          "vorher_bull_analysten": 11,
-          "delta_bull_analysten": 0,
-          "davon_strong_buy": 2,
-          "trend": "stabil"
-        },
-        "options": {
-          "call_put_ratio": 1.21,
-          "call_vol": 108,
-          "put_vol": 89,
-          "quality": "ausreichend"
-        }
-      }
-    },
-    {
-      "ticker": "CEG",
-      "thema": "AI Power / Energy",
-      "gesamt_score": 5,
-      "signal_stufe": "SCHWACH",
-      "kurs_info": {
-        "kurs": 263.27,
-        "hoch_52w": 412.7,
-        "tief_52w": 228.63,
-        "abstand_ath_prozent": 36.2,
-        "ziel_kurs": 347.28,
-        "upside_pct": 31.9
-      },
-      "scores": {
-        "news": 5,
-        "revisions": 0,
-        "options": 0,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 1,
-        "revisions": {
-          "bull_analysten": 19,
-          "vorher_bull_analysten": 19,
-          "delta_bull_analysten": 0,
-          "davon_strong_buy": 6,
-          "trend": "stabil"
-        },
-        "options": {
-          "call_put_ratio": 0.97,
-          "call_vol": 625,
-          "put_vol": 647,
-          "quality": "ausreichend"
-        }
-      }
-    },
-    {
-      "ticker": "NRG",
-      "thema": "AI Power / Energy",
-      "gesamt_score": 5,
-      "signal_stufe": "SCHWACH",
-      "kurs_info": {
-        "kurs": 100.37,
-        "hoch_52w": 189.96,
-        "tief_52w": 97.5,
-        "abstand_ath_prozent": 47.2,
-        "ziel_kurs": 188.56,
-        "upside_pct": 87.9
-      },
-      "scores": {
-        "news": 0,
-        "revisions": 0,
-        "options": 5,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 0,
-        "revisions": {
-          "bull_analysten": 13,
-          "vorher_bull_analysten": 13,
-          "delta_bull_analysten": 0,
-          "davon_strong_buy": 3,
-          "trend": "stabil"
-        },
-        "options": {
-          "call_put_ratio": 1.05,
-          "call_vol": 508,
-          "put_vol": 486,
-          "quality": "ausreichend"
-        }
-      }
-    },
-    {
-      "ticker": "APD",
-      "thema": "AI Cooling / Infrastructure",
-      "gesamt_score": 5,
-      "signal_stufe": "SCHWACH",
-      "kurs_info": {
-        "kurs": 281.76,
-        "hoch_52w": 314.87,
-        "tief_52w": 229.11,
-        "abstand_ath_prozent": 10.5,
-        "ziel_kurs": 345.11,
-        "upside_pct": 22.5
+        "abstand_ath_prozent": 34.2,
+        "ziel_kurs": 638.94,
+        "upside_pct": 31.3
       },
       "scores": {
         "news": 0,
@@ -2436,68 +2328,68 @@
       "details": {
         "news_treffer": 0,
         "revisions": {
-          "bull_analysten": 15,
-          "vorher_bull_analysten": 14,
+          "bull_analysten": 33,
+          "vorher_bull_analysten": 32,
           "delta_bull_analysten": 1,
           "davon_strong_buy": 4,
           "trend": "steigend"
         },
         "options": {
-          "call_put_ratio": null,
-          "call_vol": 28,
-          "put_vol": 27,
-          "quality": "zu_wenig_volumen"
-        }
-      }
-    },
-    {
-      "ticker": "ONTO",
-      "thema": "AI Hardware / Semiconductors",
-      "gesamt_score": 5,
-      "signal_stufe": "SCHWACH",
-      "kurs_info": {
-        "kurs": 287.64,
-        "hoch_52w": 386.46,
-        "tief_52w": 118.97,
-        "abstand_ath_prozent": 25.6,
-        "ziel_kurs": 386.36,
-        "upside_pct": 34.3
-      },
-      "scores": {
-        "news": 0,
-        "revisions": 0,
-        "options": 5,
-        "trends": 0
-      },
-      "details": {
-        "news_treffer": 0,
-        "revisions": {
-          "bull_analysten": 11,
-          "vorher_bull_analysten": 11,
-          "delta_bull_analysten": 0,
-          "davon_strong_buy": 2,
-          "trend": "stabil"
-        },
-        "options": {
-          "call_put_ratio": 1.21,
-          "call_vol": 108,
-          "put_vol": 89,
+          "call_put_ratio": 0.93,
+          "call_vol": 4516,
+          "put_vol": 4839,
           "quality": "ausreichend"
         }
       }
     },
     {
-      "ticker": "TER",
-      "thema": "Robotik / Humanoid",
+      "ticker": "TT",
+      "thema": "AI Cooling / Infrastructure",
       "gesamt_score": 5,
       "signal_stufe": "SCHWACH",
       "kurs_info": {
-        "kurs": 398.38,
-        "hoch_52w": 487.91,
-        "tief_52w": 131.75,
-        "abstand_ath_prozent": 18.3,
-        "ziel_kurs": 446.47,
-        "upside_pct": 12.1
+        "kurs": 452.06,
+        "hoch_52w": 505.87,
+        "tief_52w": 348.06,
+        "abstand_ath_prozent": 10.6,
+        "ziel_kurs": 527.4,
+        "upside_pct": 16.7
+      },
+      "scores": {
+        "news": 0,
+        "revisions": 5,
+        "options": 0,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 0,
+        "revisions": {
+          "bull_analysten": 14,
+          "vorher_bull_analysten": 13,
+          "delta_bull_analysten": 1,
+          "davon_strong_buy": 2,
+          "trend": "steigend"
+        },
+        "options": {
+          "call_put_ratio": null,
+          "call_vol": 64,
+          "put_vol": 35,
+          "quality": "zu_wenig_volumen"
+        }
+      }
+    },
+    {
+      "ticker": "COHR",
+      "thema": "AI Networking",
+      "gesamt_score": 5,
+      "signal_stufe": "SCHWACH",
+      "kurs_info": {
+        "kurs": 282.45,
+        "hoch_52w": 440.0,
+        "tief_52w": 105.02,
+        "abstand_ath_prozent": 35.8,
+        "ziel_kurs": 415.36,
+        "upside_pct": 47.1
       },
       "scores": {
         "news": 0,
@@ -2508,16 +2400,16 @@
       "details": {
         "news_treffer": 0,
         "revisions": {
-          "bull_analysten": 12,
-          "vorher_bull_analysten": 12,
+          "bull_analysten": 18,
+          "vorher_bull_analysten": 18,
           "delta_bull_analysten": 0,
-          "davon_strong_buy": 1,
+          "davon_strong_buy": 4,
           "trend": "stabil"
         },
         "options": {
-          "call_put_ratio": 1.21,
-          "call_vol": 563,
-          "put_vol": 467,
+          "call_put_ratio": 1.32,
+          "call_vol": 6349,
+          "put_vol": 4817,
           "quality": "ausreichend"
         }
       }
@@ -2528,12 +2420,12 @@
       "gesamt_score": 5,
       "signal_stufe": "SCHWACH",
       "kurs_info": {
-        "kurs": 123.61,
+        "kurs": 122.35,
         "hoch_52w": 205.77,
         "tief_52w": 98.86,
-        "abstand_ath_prozent": 39.9,
-        "ziel_kurs": 157.27,
-        "upside_pct": 27.2
+        "abstand_ath_prozent": 40.5,
+        "ziel_kurs": 157.73,
+        "upside_pct": 28.9
       },
       "scores": {
         "news": 5,
@@ -2552,8 +2444,8 @@
         },
         "options": {
           "call_put_ratio": null,
-          "call_vol": 23,
-          "put_vol": 30,
+          "call_vol": 30,
+          "put_vol": 59,
           "quality": "zu_wenig_volumen"
         }
       }
@@ -2564,12 +2456,12 @@
       "gesamt_score": 5,
       "signal_stufe": "SCHWACH",
       "kurs_info": {
-        "kurs": 618.32,
+        "kurs": 616.4,
         "hoch_52w": 683.5,
         "tief_52w": 434.7,
-        "abstand_ath_prozent": 9.5,
-        "ziel_kurs": 735.21,
-        "upside_pct": 18.9
+        "abstand_ath_prozent": 9.8,
+        "ziel_kurs": 736.79,
+        "upside_pct": 19.5
       },
       "scores": {
         "news": 5,
@@ -2588,7 +2480,7 @@
         },
         "options": {
           "call_put_ratio": null,
-          "call_vol": 38,
+          "call_vol": 42,
           "put_vol": 18,
           "quality": "zu_wenig_volumen"
         }
@@ -2600,12 +2492,12 @@
       "gesamt_score": 5,
       "signal_stufe": "SCHWACH",
       "kurs_info": {
-        "kurs": 98.66,
+        "kurs": 98.56,
         "hoch_52w": 122.2,
         "tief_52w": 74.5,
         "abstand_ath_prozent": 19.3,
         "ziel_kurs": 138.59,
-        "upside_pct": 40.5
+        "upside_pct": 40.6
       },
       "scores": {
         "news": 0,
@@ -2631,17 +2523,53 @@
       }
     },
     {
+      "ticker": "ONTO",
+      "thema": "AI Memory / HBM",
+      "gesamt_score": 0,
+      "signal_stufe": "SCHWACH",
+      "kurs_info": {
+        "kurs": 288.74,
+        "hoch_52w": 386.46,
+        "tief_52w": 118.97,
+        "abstand_ath_prozent": 25.3,
+        "ziel_kurs": 386.36,
+        "upside_pct": 33.8
+      },
+      "scores": {
+        "news": 0,
+        "revisions": 0,
+        "options": 0,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 0,
+        "revisions": {
+          "bull_analysten": 11,
+          "vorher_bull_analysten": 11,
+          "delta_bull_analysten": 0,
+          "davon_strong_buy": 2,
+          "trend": "stabil"
+        },
+        "options": {
+          "call_put_ratio": 0.62,
+          "call_vol": 42,
+          "put_vol": 68,
+          "quality": "ausreichend"
+        }
+      }
+    },
+    {
       "ticker": "GEV",
       "thema": "AI Power / Energy",
       "gesamt_score": 0,
       "signal_stufe": "SCHWACH",
       "kurs_info": {
-        "kurs": 957.63,
+        "kurs": 949.77,
         "hoch_52w": 1195.94,
         "tief_52w": 530.16,
-        "abstand_ath_prozent": 19.9,
+        "abstand_ath_prozent": 20.6,
         "ziel_kurs": 1237.34,
-        "upside_pct": 29.2
+        "upside_pct": 30.3
       },
       "scores": {
         "news": 0,
@@ -2659,9 +2587,9 @@
           "trend": "stabil"
         },
         "options": {
-          "call_put_ratio": 0.79,
-          "call_vol": 1889,
-          "put_vol": 2387,
+          "call_put_ratio": 0.98,
+          "call_vol": 2439,
+          "put_vol": 2499,
           "quality": "ausreichend"
         }
       }
@@ -2672,12 +2600,12 @@
       "gesamt_score": 0,
       "signal_stufe": "SCHWACH",
       "kurs_info": {
-        "kurs": 208.14,
+        "kurs": 205.21,
         "hoch_52w": 296.44,
         "tief_52w": 134.8,
-        "abstand_ath_prozent": 29.8,
+        "abstand_ath_prozent": 30.8,
         "ziel_kurs": 293.94,
-        "upside_pct": 41.2
+        "upside_pct": 43.2
       },
       "scores": {
         "news": 0,
@@ -2695,9 +2623,81 @@
           "trend": "stabil"
         },
         "options": {
-          "call_put_ratio": 0.97,
-          "call_vol": 533,
-          "put_vol": 552,
+          "call_put_ratio": 0.35,
+          "call_vol": 349,
+          "put_vol": 993,
+          "quality": "ausreichend"
+        }
+      }
+    },
+    {
+      "ticker": "ONTO",
+      "thema": "AI Hardware / Semiconductors",
+      "gesamt_score": 0,
+      "signal_stufe": "SCHWACH",
+      "kurs_info": {
+        "kurs": 288.74,
+        "hoch_52w": 386.46,
+        "tief_52w": 118.97,
+        "abstand_ath_prozent": 25.3,
+        "ziel_kurs": 386.36,
+        "upside_pct": 33.8
+      },
+      "scores": {
+        "news": 0,
+        "revisions": 0,
+        "options": 0,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 0,
+        "revisions": {
+          "bull_analysten": 11,
+          "vorher_bull_analysten": 11,
+          "delta_bull_analysten": 0,
+          "davon_strong_buy": 2,
+          "trend": "stabil"
+        },
+        "options": {
+          "call_put_ratio": 0.62,
+          "call_vol": 42,
+          "put_vol": 68,
+          "quality": "ausreichend"
+        }
+      }
+    },
+    {
+      "ticker": "TER",
+      "thema": "Robotik / Humanoid",
+      "gesamt_score": 0,
+      "signal_stufe": "SCHWACH",
+      "kurs_info": {
+        "kurs": 401.3,
+        "hoch_52w": 487.91,
+        "tief_52w": 131.75,
+        "abstand_ath_prozent": 17.8,
+        "ziel_kurs": 446.47,
+        "upside_pct": 11.3
+      },
+      "scores": {
+        "news": 0,
+        "revisions": 0,
+        "options": 0,
+        "trends": 0
+      },
+      "details": {
+        "news_treffer": 0,
+        "revisions": {
+          "bull_analysten": 12,
+          "vorher_bull_analysten": 12,
+          "delta_bull_analysten": 0,
+          "davon_strong_buy": 1,
+          "trend": "stabil"
+        },
+        "options": {
+          "call_put_ratio": 0.89,
+          "call_vol": 569,
+          "put_vol": 642,
           "quality": "ausreichend"
         }
       }
@@ -2806,59 +2806,59 @@
   "themes": {
     "AI Memory / HBM": {
       "trends_score": 0,
-      "wachstum_prozent": -91.4
+      "wachstum_prozent": -92.1
     },
     "AI Power / Energy": {
       "trends_score": 0,
-      "wachstum_prozent": -81.2
+      "wachstum_prozent": -77.6
     },
     "AI Cooling / Infrastructure": {
       "trends_score": 0,
-      "wachstum_prozent": -68.2
+      "wachstum_prozent": -69.7
     },
     "AI Networking": {
       "trends_score": 0,
-      "wachstum_prozent": -74.6
+      "wachstum_prozent": -73.8
     },
     "AI Hardware / Semiconductors": {
       "trends_score": 0,
-      "wachstum_prozent": -79.4
+      "wachstum_prozent": -79.0
     },
     "Robotik / Humanoid": {
       "trends_score": 0,
-      "wachstum_prozent": -36.7
+      "wachstum_prozent": -41.2
     },
     "Defense Tech / Drohnen": {
       "trends_score": 0,
-      "wachstum_prozent": -58.9
+      "wachstum_prozent": 0
     },
     "Quantencomputing": {
       "trends_score": 0,
-      "wachstum_prozent": -72.4
+      "wachstum_prozent": 0
     },
     "Nuklearenergie / SMR": {
       "trends_score": 0,
-      "wachstum_prozent": -41.2
+      "wachstum_prozent": 0
     },
     "Autonomes Fahren": {
       "trends_score": 0,
-      "wachstum_prozent": -56.2
+      "wachstum_prozent": -61.0
     },
     "Biotech / GLP-1 / Obesity": {
       "trends_score": 0,
-      "wachstum_prozent": -8.7
+      "wachstum_prozent": -15.3
     },
     "Grid / Batteriespeicher": {
       "trends_score": 0,
-      "wachstum_prozent": -8.1
+      "wachstum_prozent": -2.0
     },
     "Raumfahrt / Space Tech": {
       "trends_score": 0,
-      "wachstum_prozent": -34.2
+      "wachstum_prozent": -33.4
     },
     "Cybersecurity / KI-Sicherheit": {
       "trends_score": 0,
-      "wachstum_prozent": -62.3
+      "wachstum_prozent": -63.8
     }
   }
 }
